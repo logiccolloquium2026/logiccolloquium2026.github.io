@@ -1,0 +1,27 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    {%- if page_paths -%}
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand text-truncate" href="{{ "index.html" | relative_url }}">
+          <img src="{{ "/assets/logo.png" | relative_url }}" style="border:0; vertical-align: middle; padding-bottom: 5px; padding-right: 5px;" id="WebsiteLogo"
+            height="50">
+          <span>{{ site.title }}</span>
+        </a>
+        <div class="navbar-nav ms-auto d-flex flex-row" id="navbarLinks">
+          {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+          <a class="nav-link px-3" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </nav>
+    {%- endif -%}
+  </div>
+</header>
