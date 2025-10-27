@@ -8480,6 +8480,9 @@ a.headerBanner_item,
 	align-items: center
 }
 
+
+/*  COLOURS  */
+
 :root {
 	--color1: #01679a;
 	--color2: #FFCD03;
@@ -8492,12 +8495,12 @@ a.headerBanner_item,
 	--color1_h: 28;
 	--color1_s: 100%;
 	--color1_l: 63%;
-	--color1_25: #ffe6d0;
-	--color1_50: #ffcda1;
-	--color1_75: #ffb471;
-	--color1_125: #004982;
-	--color1_150: #003C6B;
-	--color1_175: #003259;
+	--color1_25: #cce4f1;
+	--color1_50: #99c9e3;
+	--color1_75: #66add5;
+	--color1_125: #01527a;
+	--color1_150: #013f5d;
+	--color1_175: #012c40;
 	--color2_rgb: 255, 205, 3;
 	--color2_hsl: 108, 22%, 87%;
 	--color2_hs: 108, 22%;
@@ -8963,8 +8966,18 @@ h5 {
 	margin-top: 20px;
 }
 
+.resize-sponsors {
+		max-height: 125px;
+}
+
 @media screen and (max-width:768px) {
 	#navbarLinks {
 		font-size: 15px;
 	}
+
+}
+
+.navbar-links-light {
+	--bs-navbar-color: rgba(255, 255, 255, 0.75);
+	--bs-navbar-hover-color: rgba(255, 255, 255, 1);
 }
