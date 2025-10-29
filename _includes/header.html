@@ -1,27 +1,53 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-    {%- if page_paths -%}
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-links-light" style="background-color: var(--color1);">
-      <div class="container">
-        <a class="navbar-brand text-truncate" href="{{ "index.html" | relative_url }}">
-          <img src="{{ "/assets/logo-horizontal-blue-white.png" | relative_url }}" style="border:0; vertical-align: middle; padding-bottom: 5px; padding-right: 5px;" id="WebsiteLogo"
-            height="50">
-          <span>{{ site.title }}</span>
-        </a>
-        <div class="navbar-nav ms-auto d-flex flex-row" id="navbarLinks">
-          {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <a class="nav-link px-3" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {%- endif -%}
-          {%- endfor -%}
-        </div>
+  {%- if page_paths -%}
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-links-light" style="background-color: var(--color1);">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="{{"/assets/logo-horizontal-blue-white.png" | relative_url}}"
+          style="border:0; vertical-align: middle; padding-bottom: 5px; padding-right: 10px;" id="WebsiteLogo"
+          height="50">Logic Colloquium 2026 Swansea</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/programme">Programme</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/travel">Travel</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/committee">Committee</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Previous Editions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.colloquium.co/lc2025" target="_blank">LC2025</a>
+              <a class="dropdown-item" href="https://lc2024.se/" target="_blank">LC2024</a>
+              <a class="dropdown-item" href="https://lc2023.unimi.it/" target="_blank">LC2023</a>
+              <a class="dropdown-item" href="https://icetcs.github.io/lc2022/" target="_blank">LC2022</a>
+              <a class="dropdown-item" href="https://lc2020.syskonf.pl/" target="_blank">LC2021</a>
+              <a class="dropdown-item" href="https://lc2019.cz/" target="_blank">LC2019</a>
+              <a class="dropdown-item" href="https://lc18.uniud.it/" target="_blank">LC2018</a>
+              <a class="dropdown-item" href="https://www.kth.se/en/2.28744/konferenser/logic-in-stockholm-2/logic-colloquium-201/logic-colloquium-2017-august-14-20-1.717629" target="_blank">LC2017</a>
+            </div>
+          </li>
+        </ul>
       </div>
-    </nav>
-    {%- endif -%}
-  </div>
+    </div>
+  </nav>
+
+  {%- endif -%}
 </header>
