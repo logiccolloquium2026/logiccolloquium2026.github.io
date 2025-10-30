@@ -21,9 +21,9 @@
 title: Logic Colloquium 2026 Swansea
 email: m.t.jezinski@swansea.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  The Logic Colloquium 2026 will be hosted by Swansea University, UK.
+  The Logic Colloquium 2026 is the annual European summer meeting of the Association of Symbolic Logic (ASL), that will be held in Swansea on 29 June - 3 July 2026.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://logiccolloquium2026.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  marekjezinski
 locale: en_GB
 
