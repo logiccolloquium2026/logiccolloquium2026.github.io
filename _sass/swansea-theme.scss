@@ -8982,3 +8982,35 @@ h5 {
 	--bs-navbar-color: rgba(255, 255, 255, 0.75);
 	--bs-navbar-hover-color: rgba(255, 255, 255, 1);
 }
+
+
+@font-face {
+	font-family: 'Cosmos Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cosmos Light'), url('cosmos-font/Cosmos-Light.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Cosmos Light Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cosmos Light Italic'), url('cosmos-font/Cosmos-LightIt.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Cosmos Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cosmos Medium'), url('cosmos-font/Cosmos-Medium.woff') format('woff');
+}
+
+h1 {
+	font-family: 'Cosmos Medium';
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Cosmos Light';
+}
