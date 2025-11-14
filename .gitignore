@@ -3,3 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+assets/icon-colour.png
+assets/icon-colour.xcf
+assets/icon.xcf
