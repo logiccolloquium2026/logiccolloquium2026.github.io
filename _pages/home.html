@@ -18,12 +18,7 @@ published: true
           <div id="description-wrapper">
             {% include homepage/description.html %}
           </div>
-          <div id="speakers-wrapper">
-            {% include plenary.html %}
-            {% include goedel.html %}
-            {% include tutorials.html %}
-            {% include special.html %}
-          </div>
+
           <div id="dates-wrapper">
             {% include dates.html %}
           </div>
@@ -61,25 +56,10 @@ published: true
       <div class="koSeparator koSeparatorBlock koSeparatorLeft"
         style="background:var(--color1); width: 100px; height: 5px; margin-top: 30px; margin-bottom: 30px;">
       </div>
-      <h5 id="speakers">Invited Speakers</h5>
-      TBA
-      <!-- <a href="#">Dr. Oliver Gray</a>
-      (Example University)</br>
-      <a href="#">Dr. Paula Rossi</a>
-      (Example University)</br>
-      <a href="#">Dr. Quinn Rivera</a>
-      (Example University)</br>
-      <a href="#">Dr. Rachel Kim</a>
-      (Example Institute)</br> -->
-      <h5>Special Sessions</h5>
-      TBA
-      <!-- <a href="#">Dr. Samuel Blake</a>
-      (Example University)</br>
-      <a href="#">Dr. Julia Collins</a>
-      (Example University)</br>
-      <a href="#">Dr. Michael Novak</a> (Example Ltd.)</br>
-      <a href="#">Dr. Oliver Stone</a>
-      (Example College)</br> -->
+            {% include plenary.html %}
+            {% include goedel.html %}
+            {% include tutorials.html %}
+            {% include special.html %}
     </div>
   </div>
 </div>
