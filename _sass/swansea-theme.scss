@@ -25,40 +25,6 @@ body {
 	text-rendering: optimizelegibility
 }
 
-.break {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.contributed {
-  background: rgba(0, 90, 143,0.4);
-}
-
-.tutorial {
-  background: rgb(255, 206, 37);
-}
-
-.invited {
-  background: rgb(155, 245, 0);
-}
-
-.special {
-  background: rgba(245, 0, 155,0.2);
-}
-
-.social {
-  background: rgba(0, 154, 246, 0.2);
-}
-
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
-th, td {
-	border: 1px solid black;
-	padding: 5px; 
-	text-align: center;
-}
-
 
 :root {
 	--red: #dc3545
