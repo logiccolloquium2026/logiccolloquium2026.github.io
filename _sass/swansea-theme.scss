@@ -5,7 +5,7 @@ footer {
 
 :root {
 	--kedit-fsx: 1;
-	--ui-color-accent: rgba(0, 154, 246, 1);
+	--ui-color-accent: rgb(0, 154, 246);
 	--ui-color-accent-light: rgba(0, 154, 246, 0.1);
 	--ui-color-leftmenu: rgba(40, 45, 55, 1);
 	--ui-color-leftsubmenu: #f5f6f7;
@@ -24,6 +24,41 @@ body {
 	font-smooth: always;
 	text-rendering: optimizelegibility
 }
+
+.break {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.contributed {
+  background: rgb(0, 90, 143,0.4);
+}
+
+.tutorial {
+  background: rgb(255, 206, 37);
+}
+
+.invited {
+  background: rgb(155, 245, 0);
+}
+
+.special {
+  background: rgb(245, 0, 155,0.2);
+}
+
+.social {
+  background: rgba(0, 154, 246, 0.2);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid black;
+	padding: 5px; 
+	text-align: center;
+}
+
 
 :root {
 	--red: #dc3545
