@@ -78,7 +78,29 @@ In this talk, I will present a variation on Hofmann's S1 model which sidesteps t
 <tbody>
   <tr>
     <td class="tg-0lax tg-1lax">11:25--12:05</td>
-    <td class="tg-0lax"><strong>Zhixuan Yang (Exeter)</strong><br><br><u>Functional Data Structures in Monoidal Categories</u></td>
+    <td class="tg-0lax"><strong>Zhixuan Yang (Exeter)</strong><br><br><u>Functional Data Structures in Monoidal Categories</u><br><br>
+
+      <p>An achievement of functional programming is the invention of many efficient purely
+functional data structures and algorithms. Motivated by the observation that many of
+these data structures and algorithms can be typed in linear type systems, in this talk
+I will show my ongoing work of studying functional data structures at the generality
+of monoidal categories. This generalisation unlocks the door to a strange new world
+of data structures: lists and free monoids no longer need to be isomorphic in non-
+closed monoidal categories; cons-lists and snoc-lists no longer need to coincide in non-
+symmetric monoidal categories; the time complexities of accessing the two components
+of a monoidal product may be different; and pattern matching may only be possible
+for the first variable of a context, but not the others, in categories where the monoidal
+product only distributes from the right but not the left.</p>
+<p>As an application of this generalisation, I will show how Chris Okasaki’s catenable
+lists [1] can be typed in a certain non-commutative linear type system and interpreted
+in the category of endofunctors. This gives us a data structure of abstract syntax trees
+that supports amortised constant-time-per-variable substitution, eliminating the cost
+of traversing the inner nodes of the syntax tree, which might be of interest for efficient
+implementations of type theories and programming languages.</p>
+
+      <p>[1] Chris Okasaki, Purely Functional Data Structures, Cambridge University
+Press, 1998.</p>
+    </td>
   </tr>
   <tr>
     <td class="tg-0lax tg-1lax">12:05--12:45</td>
