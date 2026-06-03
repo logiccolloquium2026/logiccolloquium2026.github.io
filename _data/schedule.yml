@@ -934,12 +934,31 @@
                         [1] Y. Hamami, Mathematical rigor and proof, The Review of Symbolic Logic, vol. 15 (2022), no. 2, pp. 409–449.
                         [2] F. Tanswell, A problem with the dependence of informal proofs on formal proofs, Philosophia Mathematica, vol. 23 (2015), no. 3, pp. 295–310.
             - time: "14:35"
+              title: "Model-theoretic inferentialism: the best of both worlds"
+              speaker: "S. Kaan Tabakci"
+              id: "lee-tabakci"
+              abstract: |
+                        What makes logical and mathematical terms meaningful? What are the meanings of logical and mathematical terms? We explore model-theoretic inferentialism, which combines an inferentialist answer to the metasemantic question (the former) and a denotation-based, model-theoretic answer to the semantic question (the latter). We characterize and defend model-theoretic inferentialism against rivaling accounts, especially orthodox denotationalism and orthodox inferentialism in logic and mathematics.
+
+                        Model-theoretic inferentialism has many variations, so we offer a way to classify different variations of model-theoretic inferentialism based on the normative basis of correct inferences and the ontological status of model-theoretic entities. Then, we introduce the Categoricity Problem: a major formal problem for model-theoretic inferentialism where the model-theoretic meanings of logical and mathematical terms are not uniquely determined by the inferences of the standard systems. We discuss the solutions in the literature to uncover how they match up with different approaches to model-theoretic inferentialism, since not every solution serves every form of model-theoretic inferentialism equally well. Based on these considerations, we develop three philosophical accounts of model-theoretic inferentialism, which will help us better comprehend the relevant results in philosophy of logic and mathematics.
+
+                        [1] Nuel D. Belnap and Gerald J. Massey, Semantic Holism, Studia Logica, vol. 49 (1990), no. 1, pp. 67–82.
+                        [2] Dennis Bonnay and Dag Westerst˚ahl, Compositionality Solves Carnap’s Problem, Erkenntis, vol. 81 (2016), no. 4, pp. 721–739.
+                        [3] Tim Button and Sean Walsh, Philosophy and Model Theory, Oxford University Press, 2018.
+                        [4] Rudolph Carnap, Formalization of Logic, Harvard University Press, 1943.
+                        [5] James Garson, What Logics Mean, Cambridge University Press, 2014.
+                        [6] Julien Murzi and Brett Topey, Categoricity by Convention, Philosophical Studies, vol. 178 (2021), no. 10, pp. 3391–3420.
+                        [7] Greg Restall, Truth Values and Proof Theory, Studia Logica, vol. 92 (2009), pp. 241–264.
+                        [8] Sebastian Speitel, Carnap’s Categoricity Problem, The Bulletin of Symbolic Logic, to appear.
+                        [9] S. Kaan Tabakci, Categoricity Problem for LP and K3, Studia Logica, vol. 112 (2024), no. 6, pp. 373-1407,
+                        [10] Jarred Warren, Shadows of Syntax, Oxford University Press, 2020.
+            - time: "14:55"
               title: "Theory of higher differentiable functionals and applications"
               speaker: "Stan Srednyak"
               id: "stan-srednyak"
               abstract: |
                         Quantum field theory is built on the notion of functionals defined on function spaces. Comparison of theory predictions with experiment requires interpreting data in appropriate functional spaces. We compare physical notions of functionals with mathematical notions of functionals. We then discuss our recent proposal that functionals arbitrarily high in the constructible hierarchy are in fact necessary for description of physical laws. Then we discuss which notions of analysis are necessary to be definable on these higher functional spaces in order for the theory to have predictive power. These notions include the notions of derivative and integral, and we discuss classes of functionals for which these notions can be defined. We provide an example of an infinitely tall tower of functionals which satisfy differential relations at each functional level. We show that if the differential relations have low complexity, then the same is true for the unique solution of these functional relations. This is a paradigmatic example of how higher functionals appear in description of physical systems.
-            - time: "14:55"
+            - time: "15:15"
               title: "Analyticity and contemporary formal theories: Hintikka's typology and the case of type theory"
               speaker: "Ramazan Ayupov"
               id: "ramazan-ayupov"
@@ -947,8 +966,8 @@
                         This talk offers a critique of Jaakko Hintikka’s analysis of analyticity [2], from the perspective of Martin-Löf type theory. Hintikka distinguishes four types of analyticity: conceptual truth; subformulaic or structural analyticity; analyticity as reasoning that introduces no new entities; and analyticity as either tautological or informationally empty. Hintikka’s aim is to formalise a Kantian insight about mathematics: mathematical reasoning is synthetic because it requires construction and cannot be reduced to mere conceptual analysis. However, Hintikka fails to preserve Kantian constructive dimension of analyticity; it is this dimension that will be realized by Martin-Löf [3]. I argue that this Hintikka framework is insufficient for contemporary formal theories. Particularly Martin-Löf’s intuitionistic type theory and its subsequent reinterpretations. In MLTT, the analytic-synthetic distinction is formulated at the level of judgments rather than propositions or argument steps. This shift reveals forms of analyticity tied to proof, construction, hypothetical reasoning and, in later discussions, evaluation and computational semantics [1]. For this reason, MLTT cannot simply be fitted into Hintikka’s typology.
 
                         [1] Bruno Bentzen, Analyticity and Syntheticity in Type Theory Revisited, The Review of Symbolic Logic, vol. 7 (2024), no. 4, pp. 1119–1145.
-                        [2] Jaakko Hintikka, An Analysis of Analylicity, Logic, Language-Games and Information: Kantian Themes in the Philosophy of Logic Oxford: Clarendon Press, 1973, pp. 123–149.
-                        [3] Per Martin-Löf, Analytic and Synthetic Judgements in Type Theory, Kant and Contemporary Epistemology (Parrini, P., editor), The University of Western Ontario Series in Philosophy of Science, vol. 54, Dordrecht: Springer, 1994, pp. 87–100.
+                        [2] Jaakko Hintikka, An Analysis of Analylicity, Logic, Language-Games and Information: Kantian Themes in the Philosophy of Logic Oxford: Clarendon Press, 1973, pp. 123--149.
+                        [3] Per Martin-Löf, Analytic and Synthetic Judgements in Type Theory, Kant and Contemporary Epistemology (Parrini, P., editor), The University of Western Ontario Series in Philosophy of Science, vol. 54, Dordrecht: Springer, 1994, pp. 87--100.
 
         - name: "Proof Theory"
           room: "Lecture Room 002"
@@ -970,9 +989,6 @@
             - time: "14:55"
               title: "Well-founded trees with leaf labels, and their applications"
               speaker: "Alakh Dhruv Chopra"    
-    - time: "15:15"
-      type: "break"
-      title: "Coffee break"
     - time: "15:45"
       type: "social"
       title: "Closing ceremony"
