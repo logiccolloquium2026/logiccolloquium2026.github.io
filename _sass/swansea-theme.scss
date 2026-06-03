@@ -1423,6 +1423,11 @@ h6,
     font-size: 1.1rem;
 }
 
+.parallel-container > .time-col {
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
 .event-details {
     padding: 15px 20px;
 }
