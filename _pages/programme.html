@@ -232,7 +232,7 @@ th, td {
                         {% for talk in track.talks %}
                         <li>
                             {% if talk.time %}<i>({{ talk.time }})</i>{% endif %} 
-                            {% if talk.abstract %}
+                            {% if talk.abstract && block.type == "special" %}
                                 <strong>{{ talk.speaker }}:</strong> <a href="/abstract/?id={{ talk.id }}">{{ talk.title }}</a>
                             {% else %}
                                 <strong>{{ talk.speaker }}:</strong> {{ talk.title }}
