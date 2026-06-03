@@ -485,6 +485,7 @@
     - time: "14:15"
       type: "plenary"
       speaker: "Nicholas Pischke"
+      id: "nicholas-pischke"
       title: "Extracting uniform bounds from noneffective proofs in probability theory"
       abstract: |
                 TBA
