@@ -106,11 +106,13 @@
       abstract: |
                 A recent discovery by the speaker is that any subtopos of the effective topos is presented by a bilayer of an oracle and a majority notion. (1) As tools for controlling an oracle, there is Weihrauch reducibility, and (2) as tools for controlling a majority notion, there are the Rudin-Keisler order and the Katetov order.
 
-                    1. The key idea underlying the rst direction is that an oracle may be viewed as a \site for a subtopos. The speakers have obtained several applications of this idea to constructive reverse mathematics, such as constructing toposes that separate several semiconstructive principles (as a comment for those interested, we have used a priority argument to construct some of such toposes!). Recently, we have extended this method to the topos for total computability (the Grayson topos), enabling the separation of principles weaker than Markov's principle.
+                    1. The key idea underlying the first direction is that an oracle may be viewed as a "site" for a subtopos. The speakers have obtained several applications of this idea to constructive reverse mathematics, such as constructing toposes that separate several semiconstructive principles (as a comment for those interested, we have used a priority argument to construct some of such toposes!). Recently, we have extended this method to the topos for total computability (the Grayson topos), enabling the separation of principles weaker than Markov's principle.
 
                     2. The second direction reveals that, in addition to oracle computability, there is another approach to enhancing computability: Computability by majority. Our recent developments show that the geometric inclusion order on subtoposes (Lawvere-Tierney topologies) obtained from subobjects of double negation sheaves in the effective topos corresponds to a game-theoretic variant (iterated Fubini product) of the Katětov order on lower sets.
                 
-                In this talk, I will provide an overview of these new discoveries regarding subtoposes of effective topos made by the speaker and collaborators over the past few years. This series of studies includes collaborative research with Akihito Kajikawa, Masamori Kaku, Keng Meng Ng, Ming Ng, and Satoshi Nakata.
+                In this talk, I will provide an overview of these new discoveries regarding subtoposes of effective topos made by the speaker and collaborators over the past few years.
+
+                This series of studies includes collaborative research with Akihito Kajikawa, Masamori Kaku, Keng Meng Ng, Ming Ng, and Satoshi Nakata.
     - time: "15:15"
       title: "Coffee break"
       type: "break"
