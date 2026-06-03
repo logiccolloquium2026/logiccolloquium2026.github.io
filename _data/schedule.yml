@@ -60,7 +60,18 @@
               time: "12:00"
             - title: "Better-quasi-ordering sequences with the gap condition"
               speaker: "Davide Manca"
+              id: "davide-manca"
               time: "12:20"
+              abstract: |
+                        Being a well-quasi-order is a fundamental combinatorial property with important applications to logic and computer science. A classic result by Higman states that finite sequences with elements in a well-quasi-order form a well-quasi-order with respect to the relation induced by Higman embeddings [2]. Gordeev proved [1] that, for sequences with elements in a well-order, the theorem holds even under an additional requirement: a symmetrical version of the gap condition originally formulated by Friedman for labelled trees (see [4]). Under that condition, the consistency strength of the theorem increases considerably.
+
+                        We prove that Gordeev’s relation of symmetrical gap-embeddability satisfies the stronger property of being a better-quasi-order, a natural strengthening of well-quasiorders introduced by Nash-Williams. In particular, our proof relies on a restricted form of Nash-Williams’ better-quasi-ordering theorem for trees [3]. We also obtain an upper bound for the strength of our theorem in reverse mathematics, in terms of systems of partial impredicativity [5]. These results were obtained in collaboration with Patrick Uftring (University of the Bundeswehr Munich).
+
+                        [1] Lev Gordeev, Generalizations of the one-dimensional version of the KruskalFriedman theorem, The Journal of Symbolic Logic, vol. 54 (1989), no. 1, pp. 100– 121.
+                        [2] Graham Higman, Ordering by divisibility in abstract algebras, Proceedings of the London Mathematical Society, vol. s3-2 (1952), no. 1, pp. 326–336.
+                        [3] C.St.J.A. Nash-Williams, On well-quasi-ordering infinite trees, Mathematical Proceedings of the Cambridge Philosophical Society, vol. 61 (1965), no. 3, pp. 697–720.
+                        [4] Stephen G. Simpson, Nonprovability of Certain Combinatorial Properties of Finite Trees, in: Harvey Friedman’s Research on the Foundations of Mathematics (L.A. Harrington and M.D. Morley and A. Sˆcˆedrov and S.G. Simpson, editors), Vol. 117. Studies in Logic and the Foundations of Mathematics, Elsevier, NorthHolland, Amsterdam, 1985, pp. 87–117.
+                        [5] Henry Towsner, Partial impredicativity in reverse mathematics, The Journal of Symbolic Logic, vol. 78 (2013), no. 2, pp. 459–488.
         - name: "Model Theory"
           room: "Board Room (401)"
           talks:
@@ -74,7 +85,12 @@
               time: "12:00"
             - title: "On generalisations of a representation of the integers modulo p, for the purpose of occasionally establishing the unsolvability of diophantine inequalities"
               speaker: "André Rognes"
+              id: "andre-rognes"
               time: "12:20"
+              abstract: |
+                        It is well known that if a diophantine equation turns out not to have a solution over the integers modulo \(p\), for some natural number \(p\), then it does not have a solution over the standard integers. This is because the integers modulo \(p\) are a homomorphic image of the integers. In contrast, the integers modulo \(p\) are of little use when faced with diophantine inequalities, as the homomorphic image of the less-than-relation is trivial. The purpose of the present work is to introduce a way of generalising a particular representation of the integers modulo \(p\). The resulting generalisations, believed to be novel, are in the form of decidable Lindenbaum algebras, which we think of as approximations to the Lindenbaum algebra of the first-order theory of integer arithmetic. Crucially if a system of diophantine inequalities turns out not to be solvable in any of the approximations, then it is not solvable over the standard integers. I believe that decision procedures based on the approximations could be implemented and run on personal computers in order to to study diophantine inequalities much as one has studied diophantine equations by interpreting them over the integers modulo \(p\), see e.g. the introductory chapters of the classic book by L. J. Mordell [1].
+
+                         [1] Louis Mordell, Diophantine equations, Academic press, 1969.
         - name: "Philosophical Logic"
           room: "Robert Recorde (102)"
           talks:
@@ -417,6 +433,10 @@
               title: "The directedness of the Rudin--Keisler order on measurable cardinals"
               speaker: "Alejandro Poveda"
               id: "poveda-set-theory"
+              abstract: |
+                        There is a long-standing project aimed at classifying ultrafilters. One of the most successful tools in this endeavor has been the Rudin-Keisler order $\leq_{\mathrm{RK}}$. A central feature of the Rudin-Keisler order is that it provides a framework for understanding the intrinsic structure of an ultrafilter through its relative position within the order. For instance, selective (a.k.a. Ramsey) ultrafilters are those that are $\leq_{\mathrm{RK}}$-minimal. In this talk we will focus on the directedness of $\leq_{\mathrm{RK}}$ on the set of $\kappa$-complete ultrafilters on $\kappa$, $\mathfrak{U}_\kappa$. Classical theorems of Kunen and, independently, Comfort?Negrepontis deduce the directedness of $\leq_{\mathrm{RK}}$ from instances of compactness; for instance, if $\kappa$ is $\kappa$-compact then $\langle \mathfrak{U}_\kappa, \leq_{\mathrm{RK}}\rangle$ is $(2^\kappa)^+$-directed. On the other hand, it can be showed that, if there is no inner model for a Woodin cardinal, $\langle \mathfrak{U}_\kappa, \leq_{\mathrm{RK}}\rangle$ fails to be $\sigma$-directed whenever $\kappa$ is the first strong cardinal $\kappa$ in the core model.  
+
+                        In light of these, a natural conjecture is that the directedness of the Rudin-Keisler order at measurable cardinals can only be produced from large cardinals in the realm of $\kappa$-compactness or strong compactness. In joint work with Yair Hayut, we refute this by proving that the $\kappa^+$-directedness of $\leq_{\mathrm{RK}}$ over $\kappa$-complete ultrafilters is equiconsistent with the existence of a cardinal $\kappa$ with Mitchell order $\kappa$. This is obtained after bridging the directedness of $\leq_{\mathrm{RK}}$ with a new principle (The Gluing Property) and showing that the latter can be forced, from optimal assumptions, using nonstationary support iterations of Prikry-type forcings.
               
             - time: "11:25"
               title: "The Knaster continuum homeomorphism group"
