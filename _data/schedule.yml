@@ -421,17 +421,14 @@
                         [1] Ross J. Anderson, Security engineering – A guide to building dependable distributed systems (3rd ed.), Wiley, 2020.
                         [2] Giorgi Japaridze, Introduction to computability logic, Annals of Pure and Applied Logic, vol. 123 (2003), no. 1–3, pp. 1–99.
             - time: "16:25"
-              title: "Strong reductions are adaptors"
-              speaker: "Ian Price"
-              id: "price-computability"
+              title: "The tree interpretation and transfinite recursion"
+              speaker: "Giorgio Genovesi"
+              id: "giorgio-genovesi"
               abstract: |
-                        Pradic and Price characterise Weihrauch reductions as morphisms in the category of answerable containers over represented spaces [3]. This abstract characterisation allows them to show that much of the algebraic structure of the Weihrauch lattice exists for general reasons rather than being tied to type-2 computability. However, it was not clear how to express strong Weihrauch reductions (reductions where the backwards map only depends on the answers from the oracle and not the initial question) in this setting.
+                        The interpretation of ZFC without powerset in the theory of second order arithmetic can be divided into two steps. The first is a tree interpretation, sets are interpreted as well founded trees up to an appropriate equivalence relation needed to ensure extensionality. This gives a theory which satisfies Axiom Beta, that is, the statement that every well founded relation has a collapsing function. The second interpretation is the restriction to an initial segment of the constructible universe. These interpretations give a nice correspondence between subsystems of arithmetic and systems of set theory without the powerset axiom.
 
-                        Independently, in an attempt to generalise dependent polynomial functors and optics, Hedges et al. worked on a program of “Fibre Optics” [1], from which they produced a structure they term a “dependent adaptor” [2]. This structure turns out to be exactly what is needed to give a category-theoretic treatment of strong Weihrauch reducibility. We give a characterisation of strong reducibility in terms of adaptors and are able to recover the Galois connection given by cylindrification.
+                        We go over some generalizations to this interpretation to systems of higher order arithmetic with restricted comprehension and theories of sets with bounded iterations of the powerset of ω. We also show that Axiom Beta implies the scheme of Elementary Transfinite Recursion as well as the totality of the primitive recursive set function. These results are part of a joint work with Emanuele Frittaion.
 
-                        [1] Dylan Braithwaite, Matteo Capucci, Bruno Gavranović, Jules Hedges and Eigil Fjeldgren Rischel, Fibre Optics, arXiv.2112.11145 (2021).
-                        [2] Jules Hedges Fibre Optics II, draft.
-                        [3] Cécilia Pradic and Ian Price, Weihrauch Problems as Containers, Crossroads of Computability and Logic: Insights, Inspirations, and Innovations(Arnold Beckmann, Isabel Oitaven and Florin Manea, editors), Lecture Notes in Computer Science, vol. 15764, Springer Cham, 2025, pp. 395-409.
         - name: "Model Theory"
           room: "Board Room (401)"
           talks:
@@ -893,13 +890,19 @@
           room: "Lecture Room 003"
           talks:
             - time: "14:15"
-              title: "The tree interpretation and transfinite recursion"
-              speaker: "Giorgio Genovesi"
-              id: "giorgio-genovesi"
+              title: "Strong reductions are adaptors"
+              speaker: "Ian Price"
+              id: "price-computability"
               abstract: |
-                        The interpretation of ZFC without powerset in the theory of second order arithmetic can be divided into two steps. The first is a tree interpretation, sets are interpreted as well founded trees up to an appropriate equivalence relation needed to ensure extensionality. This gives a theory which satisfies Axiom Beta, that is, the statement that every well founded relation has a collapsing function. The second interpretation is the restriction to an initial segment of the constructible universe. These interpretations give a nice correspondence between subsystems of arithmetic and systems of set theory without the powerset axiom.
+                        Pradic and Price characterise Weihrauch reductions as morphisms in the category of answerable containers over represented spaces [3]. This abstract characterisation allows them to show that much of the algebraic structure of the Weihrauch lattice exists for general reasons rather than being tied to type-2 computability. However, it was not clear how to express strong Weihrauch reductions (reductions where the backwards map only depends on the answers from the oracle and not the initial question) in this setting.
 
-                        We go over some generalizations to this interpretation to systems of higher order arithmetic with restricted comprehension and theories of sets with bounded iterations of the powerset of ω. We also show that Axiom Beta implies the scheme of Elementary Transfinite Recursion as well as the totality of the primitive recursive set function. These results are part of a joint work with Emanuele Frittaion.
+                        Independently, in an attempt to generalise dependent polynomial functors and optics, Hedges et al. worked on a program of “Fibre Optics” [1], from which they produced a structure they term a “dependent adaptor” [2]. This structure turns out to be exactly what is needed to give a category-theoretic treatment of strong Weihrauch reducibility. We give a characterisation of strong reducibility in terms of adaptors and are able to recover the Galois connection given by cylindrification.
+
+                        [1] Dylan Braithwaite, Matteo Capucci, Bruno Gavranović, Jules Hedges and Eigil Fjeldgren Rischel, Fibre Optics, arXiv.2112.11145 (2021).
+                        [2] Jules Hedges Fibre Optics II, draft.
+                        [3] Cécilia Pradic and Ian Price, Weihrauch Problems as Containers, Crossroads of Computability and Logic: Insights, Inspirations, and Innovations(Arnold Beckmann, Isabel Oitaven and Florin Manea, editors), Lecture Notes in Computer Science, vol. 15764, Springer Cham, 2025, pp. 395-409.
+
+
             - time: "14:35"
               title: "Closed formulas for arbitrary Kalmar elementary functions"
               speaker: "Mihai Prunescu"
