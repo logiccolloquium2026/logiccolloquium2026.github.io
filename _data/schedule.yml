@@ -1,9 +1,12 @@
 - id: "monday"
   name: "Monday, June 29"
   blocks:
+    - time: "08:30"
+      type: "social"
+      title: "Registration"
     - time: "09:00"
       type: "social"
-      title: "Welcome Reception"
+      title: "Welcome"
       id: "welcome"
 
     - time: "09:15"
