@@ -495,6 +495,7 @@
     - time: "15:45"
       type: "special"
       title: "Special Sessions"
+      id: "proof-model-theory"
       tracks:
         - name: "Pure and Applied Proof Theory"
           room: "Lecture Room 002"
