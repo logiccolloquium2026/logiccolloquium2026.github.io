@@ -21,11 +21,11 @@
       type: "tutorial"
       title: "Logic, Geometry, and Computation: A Survey of expansions of additive structures"
       speaker: "Philipp Hieronymi"
-      id: "philipp-hieronymi"
+      id: "philipp-hieronymi-1"
       abstract: |
                 We survey recent results on expansions of Presburger arithmetic and of the ordered additive group of the reals. Such structures have long been studied by logicians and theoretical computer scientists for a variety of reasons. In this survey, we provide an overview of recent developments in the area and explain their relevance to model theory, theoretical computer science, and tame geometry.
 
-                This series of talks aims partially update and connect the following earlier surveys: "A Survey of Arithmetical Definability" by Alexis Bes, "Open questions around Büchi and Presburger arithmetics" by Christian Michaux and Roger Villemaire and "Tameness in expansions of the real field" by Chris Miller.
+                This series of talks aims partially update and connect the following earlier surveys: 'A Survey of Arithmetical Definability' by Alexis Bes, 'Open questions around Büchi and Presburger arithmetics" by Christian Michaux and Roger Villemaire and "Tameness in expansions of the real field' by Chris Miller.
     - time: "11:30"
       type: "break"
       title: "Room change"
@@ -154,21 +154,529 @@
           
 
 - id: "tuesday"
-  name: "Tuesday, Oct 13"
+  name: "Tuesday, June 30"
   blocks:
-    - time: "09:00"
+    - time: "09:15"
+      type: "plenary"
+      title: "Conceptual change in set theory - between continuity and revolution"
+      speaker: "Carolin Antos-Kuby"
+      id: "carolin-antos-kuby"
+      abstract: |
+                TBA
+    - time: "10:15"
       type: "break"
-      title: "☕ Morning Coffee Reception"
-      room: "Main Foyer"
-
-    - time: "10:00"
+      title: "Coffee break"
+    - time: "10:45"
+      type: "tutorial"
+      title: "Provability of Complexity Lower Bounds"
+      speaker: "Rahul Santhanam"
+      id: rahul-santhanam-1"
+      abstract: |
+                TBA
+    - time: "11:30"
+      type: "break"
+      title: "Room change"
+    - time: "11:40"
       type: "parallel"
+      title: "Contributed talks (2)"
+      id: "contributed-talks-2"
       tracks:
-        - name: "Special Session A: Model Theory"
-          room: "Seminar Room 102"
+        - name: "Reverse Maths/Computability"
+          room: "Lecture Room 003"
           talks:
-            - time: "10:00"
-              title: "Ultraproducts and Compactness"
-              speaker: "J. Doe"
-              id: "doe-ultraproducts"
-              abstract: "This talk explores the classical framework of ultraproducts..."
+            - title: "Bounded Ramsey's theorem for triples in computability theory"
+              speaker: "Paul Shafer"
+              time: "11:40"
+              id: "paul-shafer"
+            - title: "The cohesive and stable Ramsey theorems and proof size over a weak base theory"
+              speaker: "Mengzhou Sun"
+              time: "12:00"
+              id: "mengzhou-sun"
+            - title: "The Laver partition theorem for open sets: the nucleus of Ramsey property and determinacy?"
+              speaker: "Gian Marco Osso"
+              id: "gian-marco-osso"
+              time: "12:20"
+        - name: "Model Theory"
+          room: "Board Room (401)"
+          talks:
+            - title: "Limit models in strictly stable AECs"
+              speaker: "Jeremy Beard"
+              time: "11:40"
+              id: "jeremy-beard"
+            - title: "The hybrids of holographic Jonsson theories and their Jonsson spectrum"
+              speaker: "Nazerke Mussina, Indira Tungushbayeva, Aibat Yeshkeyev"
+              time: "12:00"
+              id: "nazerke-mussina"
+            - title: "On the number of Kaiser-normal classes in a fixed Jonsson spectrum"
+              speaker: "Indira Tungushbayeva"
+              time: "12:20"
+              id: "indira-tungushbayeva"
+        - name: "Philosophical Logic"
+          room: "Robert Recorde (102)"
+          talks:
+            - title: "Two logics for normative announcements"
+              speaker: "Rodrigo Mena González"
+              time: "11:40"
+              id: "rodrigo-mena-gonzález"
+            - title: "A labelled sequent calculus for truthmaker semantics"
+              speaker: "Charles Walzer"
+              time: "12:00"
+              id: "charles-walzer"
+            - title: "A truthmaker semantics for positive free logic"
+              speaker: "Ragna Oeynhausen"
+              time: "12:20"
+              id: "ragna-oeynhausen"
+        - name: "Proof Theory"
+          room: "Lecture Room 002"
+          talks:
+            - title: "Truth, support, and arithmetic"
+              speaker: "Alexander V. Gheorghiu"
+              time: "11:40"
+              id: "alexander-v-gheorghiu"
+            - title: "On the possibility of logical constructivism"
+              speaker: "Joachim Mueller-Theys"
+              time: "12:00"
+              id: "joachim-mueller-theys"
+            - title: "Atomicity and identity in nontransitive mereology"
+              speaker: "Hsing-Chien Tsai"
+              time: "12:20"
+              id: "hsing-chien-tsai"
+        - name: "Set Theory"
+          room: "Reading Room"
+          talks:
+            - title: "Generalized Sums of Linear Orders"
+              speaker: "Alvaro Diaz Ramos"
+              time: "11:40"
+              id: "alvaro-diaz-ramos"
+            - title: "Broad Infinity implies Mahlo assuming Choice: a direct proof"
+              speaker: "Paul Blain Levy"
+              time: "12:00"
+              id: "paul-blain-levy"
+            - title: "On a subclass of Baire Class α functions"
+              speaker: "Guohua Wu"
+              id: "guohua-wu"
+              time: "12:20"
+    - time: "12:45"
+      type: "break"
+      title: "Lunch Break"
+    - time: "14:15"
+      type: "tutorial"
+      title: "Logic, Geometry, and Computation: A Survey of expansions of additive structures"
+      speaker: "Philipp Hieronymi"
+      id: "philipp-hieronymi-2"
+      abstract: |
+                We survey recent results on expansions of Presburger arithmetic and of the ordered additive group of the reals. Such structures have long been studied by logicians and theoretical computer scientists for a variety of reasons. In this survey, we provide an overview of recent developments in the area and explain their relevance to model theory, theoretical computer science, and tame geometry.
+
+                This series of talks aims partially update and connect the following earlier surveys: "A Survey of Arithmetical Definability" by Alexis Bes, "Open questions around Büchi and Presburger arithmetics" by Christian Michaux and Roger Villemaire and "Tameness in expansions of the real field" by Chris Miller.
+    - time: "15:15"
+      type: "break"
+      title: "Coffee break"
+    - time: "15:45"
+      type: "parallel"
+      title: "Contributed Talks (3)"
+      id: "contributed-talks-3"
+      tracks:
+        - name: "Computability"
+          room: "Lecture Room 003"
+          talks:
+            - time: "15:45"
+              title: "On decidability and bounded proofs in fragments of computability logic"
+              speaker: "Stella Spadoni"
+              id: "spadoni-computability"
+            - time: "16:05"
+              title: "On protocol security via computability logic"
+              speaker: "Cosimo Perini Brogi"
+              id: "brogi-computability"
+            - time: "16:25"
+              title: "Strong reductions are adaptors"
+              speaker: "Ian Price"
+              id: "price-computability"
+        - name: "Model Theory"
+          room: "Board Room (401)"
+          talks:
+            - time: "15:45"
+              title: "On algebras of binary formulas in circularly ordered structures: piecewise monotonic case"
+              speaker: "Aizhan Altayeva"
+              id: "altayeva-model"
+            - time: "16:05"
+              title: "Semantic determinacy and self-interpretations of theories"
+              speaker: "Mirko Engler"
+              id: "engler-model"
+            - time: "16:25"
+              title: "Localic Esakia duality"
+              speaker: "Nesta van der Schaaf"
+              id: "vanderschaaf-model"
+        - name: "Philosophy of Mathematics/History"
+          room: "Robert Recorde (102)"
+          talks:
+            - time: "15:45"
+              title: "Dedekind's axiomatisation of arithmetic as a case of informal rigour"
+              speaker: "Daniel Isaacson"
+              id: "isaacson-philosophy"
+            - time: "16:05"
+              title: "Leibniz and Russell: on the birth of analytic philosophy"
+              speaker: "Karol Wapniarski"
+              id: "wapniarski-philosophy"
+            - time: "16:25"
+              title: "An introduction to Husserl's phenomenology: on the nature of numbers"
+              speaker: "Rezan Burcu Büyükikiz"
+              id: "buyukikiz-philosophy"
+        - name: "Proof Mining"
+          room: "Lecture Room 002"
+          talks:
+            - time: "15:45"
+              title: "A worked example in proof mining in uniformly convex Banach spaces"
+              speaker: "Andrei Sipos"
+              id: "sipos-proof"
+            - time: "16:05"
+              title: "Extracting bounds from proofs involving ultraproducts"
+              speaker: "Morenikeji Neri"
+              id: "neri-proof"
+            - time: "16:25"
+              title: "General metatheorems in proof mining"
+              speaker: "Horatiu Cheval"
+              id: "cheval-proof"
+
+        - name: "Intuitionistic Set Theory/Philosophy"
+          room: "Reading Room"
+          talks:
+            - time: "15:45"
+              title: "Indexed hierarchies and internal structure in the ordinal class in intuitionistic set theories"
+              speaker: "Shuwei Wang"
+              id: "wang-set"
+            - time: "16:05"
+              title: "Intuitionistic Set Theory"
+              speaker: "Patrick Uftring"
+              id: "uftring-set"
+            - time: "16:25"
+              title: "Conceptions of sets and classes in a class theory with a universal set"
+              speaker: "Simone Picenni"
+              id: "picenni-set"
+    - time: "16:45"
+      type: "break"
+      title: "Room change"
+    - time: "17:00"
+      type: "plenary"
+      title: "Godel Lecture: Logical & Mathematical Conventionalism"
+      speaker: John Burgess
+      id: "john-burgess"
+      abstract: |
+                The 1930 Königsberg conference began with a symposium on logicism, intuitionism, and formalism, but also included other events at one of which Gödel announced his first incompleteness theorem. Its importance was not instantly recognized on that occasion, but it was soon to create difficulties for all three leading schools. Yet even after those three schools faded, something of the spirit of logicism lived on among philosophers in conventionalism, of which Carnap, who had represented logicism at the symposium, became the most influential advocate. Among philosophers, if not logicians, conventionalism was arguably something like the received view right through the 1950s, until criticism by Quine and others eventually led to its being almost universally abandoned. Recently, however, there has been a revival of conventionalism, both about logic and about mathematics, and some highlights of recent developments will be addressed in this lecture.
+    - time: "18:00"
+      type: "social"
+      title: "Reception"
+
+- id: "wednesday"
+  name: "Wednesday, July 1"
+  blocks:
+    - time: "09:15"
+      type: "plenary"
+      speaker: "Liron Cohen"
+      title: "The Effects of Effects on Constructivism"
+      id: "liron-cohen"
+      abstract: |
+                Constructivism begins with the promise that truth has computational meaning. Yet our standard picture of constructive validity grew out of a pure model of computation, inherited from the lambda calculus. Is this purity a foundational necessity, or merely a historical convenience? Today, computation is effectful: programs store state, branch nondeterministically, raise exceptions, interact with environments, sample randomly, and manipulate continuations. If constructive foundations are meant to explain computation, rather than idealize it away, then effects must move from the margins into the logical core. In this talk, I will argue that effects are not obstacles to constructivism. They are the structure that a modern constructivism should be built from. Once effects are admitted, they reshape the validity of logical principles: sometimes breaking them, sometimes restoring them, and often revealing distinctions that pure foundations hide. I will illustrate this through examples involving choice, continuity, and Markov’s principle. What emerges is not a weaker constructivism, but a more honest one: a constructivism whose logical principles are grounded in the actual structure of computation.
+    - time: "10:15"
+      type: "break"
+      title: "Coffee break"
+    - time: "10:45"
+      type: "parallel"
+      title: "Special Sessions"
+      id: "set-type-theory"
+      tracks:
+        - name: "Set Theory"
+          organisers: Boban Velickovic (Paris) and Matteo Viale (Turin)
+          talks:
+            - time: "10:45"
+              title: "The directedness of the Rudin--Keisler order on measurable cardinals"
+              speaker: "Alejandro Poveda"
+              id: "poveda-set-theory"
+              
+            - time: "11:25"
+              title: "The Knaster continuum homeomorphism group"
+              speaker: "Sumun Iyer"
+              id: "iyer-set-theory"
+              
+            - time: "15:20"
+              title: "A dichotomy for transitive lists"
+              speaker: "Borisa Kuzeljevic"
+              id: "kuzeljevic-set-theory"
+              abstract: |
+                        This talk presents a joint work with Roy Shalev and Stevo Todorˇcevi´c. We will for- mulate, for any regular cardinal λ, a transitive list dichotomy LD(λ+,λ) and show that LD(ω2,ω1) is consistent with CH assuming the existence of a weakly compact cardinal, while LD(ω1,ω) is a consequence of MAℵ1 . This dichotomy is a direct generalization of the statement that every λ+-Aronszajn tree is special, and it implies, for example: that every λ+-tower in (P(λ),⊆∗) is Hausdorff, the nonexistence of λ+-Souslin lower semi- lattices, the nonexistence of certain strongly unbounded colorings (assuming λ<λ = λ), and the nonexistence of (λ+,λ+)-T-gaps in P(λ).
+
+        - name: "Type Theory"
+          organisers: "Fredrik Nordvall Forsberg (Strathclyde) and Nicolai Kraus (Nottingham)"
+          talks:
+            - time: "10:45"
+              title: "Revisiting Hofmann's setoid model"
+              speaker: "Loïc Pujet"
+              id: "escardo-type-theory"
+              abstract: |
+                        In his seminal PhD thesis, Martin Hofmann proposed two definitions of the setoid model of type theory in the language of intensional type theory itself, in order to recover extensionality principles such as function extensionality, proposition extensionality and quotient types. Unfortunately, due to the lack of extensionality, his models only validates some of the rules of type theory up to setoid equality. In this talk, I will present a variation on Hofmann's S1 model which sidesteps the lack of extensionality, and supports all of the constructors of type theory as well as the desired extensionality principles without destroying the computational content of equality proofs. I will discuss the consequences of this model on constructive fragments of the axiom of choice, proof erasure, and impredicativity. I will also draw parallels with models of univalent type theory in cubical and semi-cubical sets.A hands-on review of type theory workflows exploiting univalence principles. 
+
+                        We demonstrate verification routines directly inside modern computational proof assistants.
+                        
+            - time: "11:25"
+              title: "Functional Data Structures in Monoidal Categories"
+              speaker: "Zhixuan Yang"
+              id: "yang-type-theory"
+              abstract: |
+                        An achievement of functional programming is the invention of many efficient purely functional data structures and algorithms. Motivated by the observation that many of these data structures and algorithms can be typed in linear type systems, in this talk I will show my ongoing work of studying functional data structures at the generality of monoidal categories. This generalisation unlocks the door to a strange new world of data structures: lists and free monoids no longer need to be isomorphic in non- closed monoidal categories; cons-lists and snoc-lists no longer need to coincide in non- symmetric monoidal categories; the time complexities of accessing the two components of a monoidal product may be different; and pattern matching may only be possible for the first variable of a context, but not the others, in categories where the monoidal product only distributes from the right but not the left.
+
+                        As an application of this generalisation, I will show how Chris Okasaki’s catenable lists [1] can be typed in a certain non-commutative linear type system and interpreted in the category of endofunctors. This gives us a data structure of abstract syntax trees that supports amortised constant-time-per-variable substitution, eliminating the cost of traversing the inner nodes of the syntax tree, which might be of interest for efficient implementations of type theories and programming languages.
+
+                        [1] Chris Okasaki, Purely Functional Data Structures, Cambridge University Press, 1998.
+                
+            - time: "12:05"
+              title: "TBA"
+              speaker: "TBA"
+              id: "tba-type-theory"
+    - time: "12:45"
+      type: "break"
+      title: "Lunch break"
+    - time: "14:15"
+      type: "social"
+      title: "Excursion"
+
+- id: "thursday"
+  name: "Thursday, July 2"
+  blocks:
+    - time: "09:15"
+      type: "plenary"
+      title: "Ultraproduct approximations in metric model theory"
+      speaker: "Åsa Hirvonen"
+      id: "asa-hirvonen"
+      abstract: |
+                Continuous logic offers an approach to metric structures that in many aspects resembles classical first order model theory. As for ultraproducts, both Los’s theorem and the Keisler-Shelah theorem have analogues in a continuous logic setting. However, as continuous logic is positive, we get some new features when building ultraproducts. E.g., the formulas we wish to hold in our ultraproduct model need not be true in any of the constituent models.
+
+                In this talk I will explore some of the possibilities ultraproducts offer as a means for approximation. In physics there is a tradition of approximating quantum mechanical systems via finite dimensional spaces, and as an example I will sketch how the properties of metric ultraproducts can be used to justify such approximations. This part of the talk is based on joint work with Tapani Hyttinen.
+    - time: "10:15"
+      type: "break"
+      title: "Coffee break"
+    - time: "10:45"
+      type: "tutorial"
+      title: "Logic, Geometry, and Computation: A Survey of expansions of additive structures"
+      speaker: "Philipp Hieronymi"
+      id: "philipp-hieronymi-3"
+      abstract: |
+                We survey recent results on expansions of Presburger arithmetic and of the ordered additive group of the reals. Such structures have long been studied by logicians and theoretical computer scientists for a variety of reasons. In this survey, we provide an overview of recent developments in the area and explain their relevance to model theory, theoretical computer science, and tame geometry.
+
+                This series of talks aims partially update and connect the following earlier surveys: 'A Survey of Arithmetical Definability' by Alexis Bes, 'Open questions around Büchi and Presburger arithmetics" by Christian Michaux and Roger Villemaire and "Tameness in expansions of the real field' by Chris Miller.
+    - time: "11:30"
+      type: "break"
+      title: "Room change"
+    - time: "11:40"
+      type: "tutorial"
+      title: "Provability of Complexity Lower Bounds"
+      speaker: "Rahul Santhanam"
+      id: rahul-santhanam-2"
+      abstract: |
+                TBA
+    - time: "12:45"
+      type: "break"
+      title: "Lunch break"
+    - time: "14:15"
+      type: "plenary"
+      speaker: "Nicholas Pischke"
+      title: "Extracting uniform bounds from noneffective proofs in probability theory"
+      abstract: |
+                TBA
+    - time: "15:15"
+      type: "break"
+      title: "Coffee break"
+    - time: "14:00"
+      type: "parallel"
+      title: "Special Sessions"
+      tracks:
+        - name: "Pure and Applied Proof Theory"
+          organisers: "Raheleh Jalali (Bath) and Andrei Sipos (Bucharest)"
+          talks:
+            - time: "15:45"
+              title: "On the complexity of the Herbrand theorem"
+              speaker: "Pavel Pudlak"
+              id: "pudlak-proof-theory"
+              abstract: |
+                        The Herbrand theorem is a way to prove first order logically valid sentences \phi that are in the prenex form. The proof is a certain disjunction of term instances of the matrix of \phi, which is a propositional tautology. The structure of terms occurring in the disjunction may be very complex. We have studied the complexity of this structure using the Student-Teacher game. In this game Student proposes terms and Teacher proposes counterexamples. (If considered in pure predicate logic and viewed syntactically, Teacher just plays distinct free variables.) The game is defined using a finite tree in which nodes are plays of Teacher and edges are plays of Student. Furthermore, there is a linear order on the nodes, which determines how the game is played. One of our results says that for any such ordered tree T, a logically valid sentence can be constructed such that T is a substructure of any Herbrand proof.
+
+                        This is a joint work with Sam Buss.
+
+            - time: "16:25"
+              title: "Automatic structures and the problem of natural well-orderings"
+              speaker: "Lev Beklemishev"
+              id: "beklemishev-proof-theory"
+              abstract: |
+                        We explore the idea of using automatic and other very efficient presentations of structures to deal with the conceptual problem of natural proof-theoretic ordinal notations. We conclude that this approach still does not meet the goals. Joint work with Fedor N. Pakhomov.# Paste verbatim text block 1 here.
+
+            - time: "17:15"
+              title: "Quantitative results on a generalized viscosity approximation method"
+              speaker: "Paulo Firmino"
+              id: "firmino-proof-theory"
+              
+        - name: "Model Theory"
+          organisers: "Pantelis Eleftheriou (Leeds) and Frank Wagner (Lyon)"
+          talks:
+            - time: "15:45"
+              title: "Automatic definability of valuations from an order-topological perspective"
+              speaker: "Anna de Mase"
+              id: "demase-model-theory"
+              
+            - time: "16:25"
+              title: "Cofibrant generation of pure monomorphisms in presheaf categories"
+              speaker: "Mark Kamsma (Masaryk)"
+              id: "kamsma-model-theory"
+              abstract: |
+                        The title of this talk, and its main result, are purely category-theoretic. However, we use model-theoretic methods to obtain the result. For a fixed monoid S, there is an algebraic question whether or not pure monomorphisms between sets with an S-action are cofibrantly generated. In (positive) model theory, we sometimes call pure monomorphisms immersions: those homomorphisms that reflect solutions to systems of equations. An earlier result by Lieberman, Vasey and Rosický established an equivalence between the existence of a stable independence relation on a category and cofibrant generation of a certain class of morphisms. We use this equivalence, as well as ideas of Mustafin, to characterise for which monoids S the class of pure monomorphisms is cofibrantly generated: those such that for every a, b ∈ S there is c ∈ S with a = cb or b = ca. Our methods directly go through in the greater generality of presheaf categories, hence the title, and main result, of the talk. This is joint work with Sean Cox, Jonathan Feigert, Marcos Mazari-Armida and Jiří Rosický.
+
+            - time: "17:15"
+              title: "Generalisations of Ax's theorem on pseudofinite fields"
+              speaker: "Stefan Ludwig"
+              id: "ludwig-model-theory"
+    - time: "18:00"
+      type: "social"
+      title: "Social dinner"
+      
+
+- id: "friday"
+  name: "Friday, July 3"
+  blocks:
+    - time: "09:15"
+      type: "plenary"
+      title: "The isomorphism relation of non-Archimedean Polish groups"
+      speaker: "Su Gao"
+      id: "su-gao"
+      abstract: |
+                TBA
+    - time: "10:15"
+      type: "break"
+      title: "Coffee break"
+    - time: "10:45"
+      type: "tutorial"
+      title: "Provability of Complexity Lower Bounds"
+      speaker: "Rahul Santhanam"
+      id: rahul-santhanam-3"
+      abstract: |
+                TBA
+    - time: "11:30"
+      type: "break"
+      title: "Room change"
+    - time: "11:40"
+      type: "parallel"
+      title: "Contributed talks (4)"
+      id: "contributed-talks-4"
+      tracks:
+        - name: "Provability Logic"
+          room: "Lecture Room 003"
+          talks:
+            - time: "11:40"
+              title: "Towards infinitary GL"
+              speaker: "Giovanni Solda"
+            - time: "12:00"
+              title: "On the Goldblatt-Thomason theorem for interpretability logic"
+              speaker: "Felix Frigola Gonzalez"
+            - time: "12:20"
+              title: "The logic behind Hanabi"
+              speaker: "Elise Perrotin"
+
+        - name: "Type Theory"
+          room: "Board Room (401)"
+          talks:
+            - time: "11:40"
+              title: "Generalized decidability via Brouwer ordinals"
+              speaker: "Aref Mohammadzadeh"
+            - time: "12:00"
+              title: "Towards a Curry-Howard correspondence for existential graphs"
+              speaker: "Pablo Donato"
+            - time: "12:20"
+              title: "Certified assurance for railway interlockings: from SAT proofs to mechanised verification in Rocq and Agda"
+              speaker: "Harry Bryant"
+
+        - name: "Philosophy of Mathematics/Finitism"
+          room: "Robert Recorde (102)"
+          talks:
+            - time: "11:40"
+              title: "Against the equivalence of potentialist and actualist set theories"
+              speaker: "Alessandro Giglia"
+            - time: "12:00"
+              title: "Formalizing indefinite extensibility"
+              speaker: "Matthias Eberl"
+            - time: "12:20"
+              title: "Modal alternative set theory"
+              speaker: "Aleksi Honkasalo"
+
+        - name: "Proof Mining"
+          room: "Lecture Room 002"
+          talks:
+            - time: "11:40"
+              title: "On the structure of convergence proofs in stochastic optimization"
+              speaker: "Thomas Powell"
+            - time: "12:00"
+              title: "A finitistic perspective on convergence results"
+              speaker: "Pedro Pinto"
+            - time: "12:20"
+              title: "Effective methods: logic and optimization"
+              speaker: "Laurentiu Leustean"
+
+        - name: "Set Theory"
+          room: "Reading Room"
+          talks:
+            - time: "11:40"
+              title: "Generic reals and gauge dimensions"
+              speaker: "Yiping Miao"
+            - time: "12:00"
+              title: "Small large cardinals and neostability theory"
+              speaker: "James E. Hanson"      
+    - time: "12:45"
+      type: "break"
+      title: "Lunch break"
+    - time: "14:15"
+      type: "parallel"
+      title: "Contributed Talks (5)"
+      id: "contributed-talks-5"
+      tracks:
+        - name: "Reverse Maths/Computability"
+          room: "Lecture Room 003"
+          talks:
+            - time: "14:15"
+              title: "The tree interpretation and transfinite recursion"
+              speaker: "Giorgio Genovesi"
+            - time: "14:35"
+              title: "Closed formulas for arbitrary Kalmar elementary functions"
+              speaker: "Mihai Prunescu"
+            - time: "14:55"
+              title: "On the computational strength of Hausdorff oracles"
+              speaker: "Benjamin Koch"
+            - time: "15:15"
+              title: "On the complexity of quadratic iteration"
+              speaker: "Eike Neumann"
+
+        - name: "Philosophy of Mathematics"
+          room: "Robert Recorde"
+          talks:
+            - time: "14:15"
+              title: "Localising overgeneration: a three-strata decomposition of formal proof"
+              speaker: "David Appadourai"
+            - time: "14:35"
+              title: "Theory of higher differentiable functionals and applications"
+              speaker: "Stan Srednyak"
+            - time: "14:55"
+              title: "Analyticity and contemporary formal theories: Hintikka's typology and the case of type theory"
+              speaker: "Ramazan Ayupov"
+
+        - name: "Proof Theory"
+          room: "Lecture Room 002"
+          talks:
+            - time: "14:15"
+              title: "Bachmann-Howard from below"
+              speaker: "Anton Setzer"
+            - time: "14:35"
+              title: "Skolemization and Herbrand's Theorem for intermediate logics over predicate abstraction"
+              speaker: "Elio La Rosa"
+            - time: "14:55"
+              title: "Well-founded trees with leaf labels, and their applications"
+              speaker: "Alakh Dhruv Chopra"    
+    - time: "15:15"
+      type: "break"
+      title: "Coffee break"
+    - time: "15:45"
+      type: "social"
+      title: "Closing ceremony"
