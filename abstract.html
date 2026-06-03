@@ -1,0 +1,92 @@
+---
+layout: default
+permalink: /abstract/
+---
+
+{% assign all_blocks = site.data.schedule %}
+{% assign target_id = page.url | split: '/' | last %}
+
+{% assign found_talk = nil %}
+{% for block in all_blocks %}
+  {% if block.id %}
+    {% if block.id == target_id or target_id == "abstract" %}
+      {% endif %}
+  {% endif %}
+  
+  {% for track in block.tracks %}
+    {% for talk in track.talks %}
+      {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+<script>
+        // 1. Build a clean, flat dictionary by mapping internal parameters explicitly
+        const db = {};
+
+        {% for day in site.data.schedule %}
+            {% if day.blocks %}
+                {% for block in day.blocks %}
+                    
+                    /* Track Single Plenaries or Keynotes */
+                    {% if block.id and block.abstract %}
+                        db["{{ block.id }}"] = {
+                            title: "{{ block.title | escape }}",
+                            speaker: "{{ block.speaker | escape }}",
+                            room: "{{ block.room | escape }}",
+                            body: "{{ block.abstract | strip_newlines | escape }}"
+                        };
+                    {% endif %}
+                    
+                    /* Track Multi-Column Special Session Presentations */
+                    {% if block.tracks %}
+                        {% for track in block.tracks %}
+                            {% if track.talks %}
+                                {% for talk in track.talks %}
+                                    {% if talk.id and talk.abstract %}
+                                        db["{{ talk.id }}"] = {
+                                            title: "{{ talk.title | escape }}",
+                                            speaker: "{{ talk.speaker | escape }}",
+                                            room: "{{ track.room | escape }}",
+                                            body: "{{ talk.abstract | strip_newlines | escape }}"
+                                        };
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+
+        // 2. Grabs the ID parameter string and manages rendering target components
+        window.addEventListener('DOMContentLoaded', () => {
+            const id = new URLSearchParams(window.location.search).get('id');
+            const talk = db[id];
+            
+            if (talk) {
+                document.getElementById('render-title').innerText = talk.title;
+                document.getElementById('render-speaker').innerText = "Speaker: " + talk.speaker;
+                document.getElementById('render-room').innerText = talk.room ? "📍 Location: " + talk.room : "";
+                document.getElementById('render-body').innerText = talk.body;
+            } else {
+                document.getElementById('render-title').innerText = "Abstract Not Found";
+                document.getElementById('render-speaker').innerText = "";
+                document.getElementById('render-room').innerText = "";
+                document.getElementById('render-body').innerText = "We couldn't find an abstract matching that ID. Please check the schedule layout and try again.";
+            }
+        });
+    </script>
+<article class="abstract-container" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+    <a href="/index.html" style="text-decoration: none; color: #0284c7; font-weight: 600;">&larr; Back to Schedule</a>
+    
+    <h1 id="render-title" style="font-size: 2.2rem; margin-top: 20px; color: #0f172a;">Loading Abstract...</h1>
+    <p style="margin: 10px 0; font-size: 1.1rem; color: #475569;">
+        <strong id="render-speaker"></strong>
+    </p>
+    <div id="render-room" style="font-size: 0.9rem; color: #64748b; font-weight: 600; text-transform: uppercase;"></div>
+    
+    <hr style="margin: 20px 0; border: 0; border-top: 1px solid #e2e8f0;">
+    
+    <p id="render-body" style="font-size: 1.15rem; line-height: 1.8; color: #334155; white-space: pre-line;"></p>
+</article>

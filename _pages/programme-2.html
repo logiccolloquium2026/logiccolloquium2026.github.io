@@ -1,0 +1,92 @@
+---
+layout: page
+title: Conference Schedule
+permalink: /programme-2
+---
+
+<header class="schedule-header">
+    <h1>Conference Schedule</h1>
+    <nav class="day-navigation">
+        <ul>
+            {% for day in site.data.schedule %}
+                <li><a href="#{{ day.id }}">{{ day.name | split: ',' | first }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
+
+<main class="schedule-container">
+    
+    {% for day in site.data.schedule %}
+        <section id="{{ day.id }}" class="day-section">
+            
+            <h2 class="day-title">{{ day.name }}</h2>
+            
+            {% for block in day.blocks %}
+                
+                {% if block.type == "plenary" or block.type == "tutorial" %}
+                <div class="time-block">
+                    <div class="time-col">{{ block.time }}</div>
+                    <div class="event-details">
+                        <!-- <span class="badge badge-{{ block.type }}">{{ block.type | upcase }}</span> -->
+                        <!-- {% if block.room %}<span class="room-tag">📍 {{ block.room }}</span>{% endif %} -->
+                        <h3>
+                          {% if block.abstract %}
+                                <a href="/abstract/?id={{ block.id }}">{{ block.title }}</a>
+                            {% else %}
+                                {{ block.title }}
+                            {% endif %}
+                        </h3>
+                        {% if block.speaker %}<div class="metadata"><strong>{{ block.speaker }}</strong></div>{% endif %}
+                    </div>
+                </div>
+
+                {% elsif block.type == "break" %}
+                <div class="time-block break-block">
+                    <div class="time-col">{{ block.time }}</div>
+                    <div class="event-details">
+                        <span class="break-text">{{ block.title }}</span>
+                        {% if block.room %}<span class="room-tag italic-room">({{ block.room }})</span>{% endif %}
+                    </div>
+                </div>
+
+                {% elsif block.type == "parallel" %}
+<div class="time-block parallel-container">
+    <div class="time-col">{{ block.time }}</div>
+    
+    <div class="parallel-content-area">
+        
+        <div class="parallel-main-header">
+            <h3>Parallel Sessions</h3>
+        </div>
+        
+        <div class="track-columns">
+            {% for track in block.tracks %}
+            <article class="track-card">
+                <div>
+                    <h4>{{ track.name }}</h4>
+                    {% if track.room %}<div class="track-room">📍 {{ track.room }}</div>{% endif %}
+                    <ul class="talk-list">
+                        {% for talk in track.talks %}
+                        <li>
+                            <strong>{{ talk.time }}</strong> 
+                            {% if talk.abstract %}
+                                <a href="/abstract/?id={{ talk.id }}">{{ talk.title }}</a>
+                            {% else %}
+                                {{ talk.title }}
+                            {% endif %}
+                            &mdash; <em>{{ talk.speaker }}</em>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+                {% endif %}
+
+            {% endfor %} </section>
+    {% endfor %} </main>

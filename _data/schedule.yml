@@ -1,0 +1,83 @@
+- id: "monday"
+  name: "Monday, June 29"
+  blocks:
+    - time: "09:00"
+      type: "plenary"
+      title: "Welcome Reception"
+
+    - time: "09:15"
+      type: "plenary"
+      title: "The kappa-Turing degrees"
+      speaker: "Juan Pablo Aguilera"
+      id: "juan-pablo-aguilera"
+      abstract: |
+                We study a generalization of the recursively enumerable sets defined in terms of \Sigma_1-definable functionals at admissible levels of Gödel’s constructively hierarchy. These sets and the corresponding notion of reducibility give rise to a new kind of degree structure for subsets of non-projectible admissible ordinals.
+                This is joint work with N. Greenberg and E. Hammatt.
+    - time: "10:10"
+      type: "break"
+      title: "Coffee break"
+    - time: "10:45"
+      type: "plenary"
+      title: "Logic, Geometry, and Computation: A Survey of expansions of additive structures"
+      speaker: "Philipp Hieronymi"
+      id: "philipp-hieronymi"
+      abstract: |
+                We survey recent results on expansions of Presburger arithmetic and of the ordered additive group of the reals. Such structures have long been studied by logicians and theoretical computer scientists for a variety of reasons. In this survey, we provide an overview of recent developments in the area and explain their relevance to model theory, theoretical computer science, and tame geometry.
+
+                This series of talks aims partially update and connect the following earlier surveys: "A Survey of Arithmetical Definability" by Alexis Bes, "Open questions around Büchi and Presburger arithmetics" by Christian Michaux and Roger Villemaire and "Tameness in expansions of the real field" by Chris Miller.
+    - time: "11:30"
+      type: "break"
+      title: "Room change"
+    - time: "11:40"
+      title: "Contributed talks (1)"
+      type: "parallel"
+      tracks:
+        - name: "Computability, Structure Theory"
+          room: "Lecture Room 003"
+          talks:
+            - title: "Computable structure theory and forcing"
+              speaker: "Rusell Miller"
+              id: "russel-miller"
+              abstract: ""
+        - name: "Model Theory"
+          room: "Board Room (401)"
+          talks:
+            - title: "Connected components of sets definable in d-minimal expansion of the real field"
+              speaker: "Masato Fujita"
+              id: "masato-fujita"
+              abstract: ""
+        - name: "Philosophical Logic"
+          room: "Robert Recorde (102)"
+          talks:
+            - title: "Relative contingency"
+              speaker: "Gabriele Pulcini"
+              id: "gabriele-pulcini"
+              abstract: ""
+        - name: "Proof Theory"
+          room: "Lecture Room 002"
+          talks:
+            - title: "Separation of induction and collection axiom in bounded arithmetic with student-teacher games"
+              speaker: "Dimitrios Tsintsilidas"
+              id: "dimitrios-tsintslidias"
+              abstract: ""
+          
+
+- id: "tuesday"
+  name: "Tuesday, Oct 13"
+  blocks:
+    - time: "09:00"
+      type: "break"
+      title: "☕ Morning Coffee Reception"
+      room: "Main Foyer"
+
+    - time: "10:00"
+      type: "parallel"
+      tracks:
+        - name: "Special Session A: Model Theory"
+          room: "Seminar Room 102"
+          talks:
+            - time: "10:00"
+              title: "Ultraproducts and Compactness"
+              speaker: "J. Doe"
+              id: "doe-ultraproducts"
+              abstract: "This talk explores the classical framework of ultraproducts..."
