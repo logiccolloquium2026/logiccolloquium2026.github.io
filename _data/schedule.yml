@@ -15,7 +15,8 @@
       speaker: "Juan Pablo Aguilera"
       id: "juan-pablo-aguilera"
       abstract: |
-                We study a generalization of the recursively enumerable sets defined in terms of \Sigma_1-definable functionals at admissible levels of Gödel’s constructively hierarchy. These sets and the corresponding notion of reducibility give rise to a new kind of degree structure for subsets of non-projectible admissible ordinals.
+                We study a generalization of the recursively enumerable sets defined in terms of \(\Sigma_1\)-definable functionals at admissible levels of Gödel’s constructively hierarchy. These sets and the corresponding notion of reducibility give rise to a new kind of degree structure for subsets of non-projectible admissible ordinals.
+
                 This is joint work with N. Greenberg and E. Hammatt.
     - time: "10:15"
       type: "break"
@@ -44,6 +45,15 @@
               speaker: "Rusell Miller"
               id: "russel-miller"
               time: "11:40"
+              abstract: |
+                        Continuum-sized structures are often presentable as the set of paths through a computable subtree of \(ω^{<ω}\) , with the functions in the signature computed by Turing functionals on those paths. Such structures include the rings \(\mathbb{Z}_p\) of \(p\)-adic integers, related groups such as \(\mathbb{Z}^+\) and \(\mathbb{Z}^{\times}\), the group Sym(\(\omega\)) of all permutations of \(\omega\), and all automorphism groups of computable structures. If quotients by \(\prod^0_1\) equivalence relations are allowed, then the fields \(\mathbb{R}\) and \(\mathbb{C}\) are also included. These tree-computable presentations are formally defined in [1].
+
+                         Within such a structure, the computable paths form a countable substructure. In the case of the field \(\mathbb{R}\), Korovina and Kudinov showed in [2] that the Turing degree spectrum of this substructure consists of precisely the high degrees (i.e., those \(\boldsymbol{d}\) with \(\boldsymbol{d'}\ \ge 0''\)). In contrast, Morozov proved in [3] that the computable permutations ofω form a group whose degree spectrum is the upper cone above \(\boldsymbol{0''}\). We offer some further results here, showing, for instance, that the spectrum of the group \(\text{Gal}_0(\mathbb{Q})\) of computable automorphisms of the algebraically closed field \(\overline{\mathbb{Q}}\) is contained in the upper cone above \(\mathbb{0'}\).
+                         
+                         [1] J. Block and R. Miller, Computability for tree presentations of continuumsize structures, submitted for publication.
+                         [2] M. Korovina and O. Kudinov, Spectrum of the computable real numbers, Algebra and Logic, vol. 55 (2017), no. 6, pp. 485–500.
+                         [3] A.S. Morozov, Permutations and implicit definability, Algebra and Logic, vol. 27 (1988), no. 1, pp. 12–24.
+
             - title: "Well-ordering principles over recursive comprehension"
               speaker: "Gabriele Buriola"
               id: "gabriele-buriola"
@@ -169,7 +179,15 @@
       speaker: "Carolin Antos-Kuby"
       id: "carolin-antos-kuby"
       abstract: |
-                TBA
+                The general question of whether revolutions are possible in mathematics remains contested. Prominently, Crowe (1975, 165) claims that revolutions cannot occur in mathematics as revolutions require that “a previously accepted entity within mathematics proper be rejected.” In Kuhn’s account, such discontinuities are a significant feature of scientific revolutions. If one wants to argue against Crowe that change in mathematics is comparable to change in the (natural) sciences, one can either show that discontinuities do indeed exists in mathematical change (see Kitcher (1984)), or that change in the natural sciences is not as discontinuous as Kuhn claims it to be (see Post (1971)).
+
+                In this talk, I will use these possible answers to study a change that took place in the 1960’s within the field of set theory. Here, the introduction and development of model-theoretic methods, such as ultrapower constructions, inner models and forcing, sparked an explosion of results, clarified long-standing questions and opened up new areas of research. Most importantly, these methods provided a unified methodology for set theory’s two main epistemic functions: serving as a foundational theory on the one hand, and studying mathematical infinity on the other.
+
+                This model-based turn in set theory exhibits several markers of revolutionary theory change: It addressed not only a lack of progress in some areas of set theory, but it resolved a fundamental flaw of set theory at that time, namely the lack of a unified methodological basis. This new basis led to an abandonment of earlier methods and explanatory patterns, as well as changing the general understanding of fundamental concepts and research questions. Are these markers sufficient to call the change in set theory a revolution?
+
+                [1] Michael J. Crowe, Ten “laws” concerning patterns of change in the history of mathematics, Historia Mathematica, vol. 2 (1975), no. 2, pp. 161–166.
+                [2] Philip Kitcher, The Nature of Mathematical Knowledge, Oxford University Press, 1984.
+                [3] Heinz R. Post, Correspondence, Invariance and Heuristics: In Praise of Conservative Induction, Studies in History and Philosophy of Science Part A, vol. 2 (1971), no. 3.
     - time: "10:15"
       type: "break"
       title: "Coffee break"
@@ -177,7 +195,7 @@
       type: "tutorial"
       title: "Provability of Complexity Lower Bounds"
       speaker: "Rahul Santhanam"
-      id: rahul-santhanam-1"
+      id: "rahul-santhanam-1"
       abstract: |
                 TBA
     - time: "11:30"
@@ -478,7 +496,7 @@
       type: "tutorial"
       title: "Provability of Complexity Lower Bounds"
       speaker: "Rahul Santhanam"
-      id: rahul-santhanam-2"
+      id: "rahul-santhanam-2"
       abstract: |
                 TBA
     - time: "12:45"
@@ -490,7 +508,14 @@
       id: "nicholas-pischke"
       title: "Extracting uniform bounds from noneffective proofs in probability theory"
       abstract: |
-                TBA
+                Probability theory, at the surface, seems to require the use of proof-theoretically strong principles even to develop some of the most basic notions. Contrary to these perceived logical limitations, a systematic approach for extending the program of proof mining to this area has recently been proposed (cf. [2] as well as [1]), fundamentally based on the use of probability contents (i.e., finitely additive [0, 1]-valued measures defined on algebras of sets).
+
+                    In this talk, I provide a high-level overview of the main ideas of this endeavor. In particular, I discuss how one can define extended systems of finite-type arithmetic tailored to probability contents, and how the outer measure can be used to provide a structured approach towards recognizing complex probabilistic statements formally in the language of the underlying theory. Combined with proof-theoretic tools like G ̈odel’s functional interpretation and Howard’s majorizability, these systems and translations give rise to new probabilistic logical metatheorems which allow for the extraction of computable and highly uniform bounds from (non-effective) proofs of probabilistic existence statements. Moreover, Kohlenbach’s uniform boundedness principle in that context allows for a tame access to continuity properties of the measure and facilitates an elimination of the principle of σ-additivity from proofs.
+
+                 These metatheorems provide a logical explanation for the success of previous proof mining case studies, and in particular the various striking uniformities already observed in practice, and continue to prove themselves to be widely effective. I end by giving a brief overview of some of the central recent case studies, and indicating directions of current and future applied work stemming from these logical results.
+
+                 [1] M. Neri, P. Oliva and N. Pischke, A systematic way of analysing proofs in probability theory, arXiv:2604.08078 (2026).
+                 [2] M. Neri and N. Pischke, Proof mining and probability theory, Forum of Mathematics, Sigma, vol. 13 (2025), no. e187.
     - time: "15:15"
       type: "break"
       title: "Coffee break"
@@ -558,7 +583,7 @@
       speaker: "Su Gao"
       id: "su-gao"
       abstract: |
-                TBA
+                Kechris, Nies and Tent proposed a program to study the isomorphism relation of Borel classes of non-Archimedean Polish groups and to determine their exact complexity in the Borel reducibility hierarchy. In this talk I will give a survey of the known results in this program, including some recent work on extremely amenable groups and procoutable groups. This involves joint work with Wei Dai, Mahmood Etedadialiabadi, Feng Li, Ruiwen Li, Andre Nies, Gianluca Paolini, and Víctor Hugo Yáñez.
     - time: "10:15"
       type: "break"
       title: "Coffee break"
@@ -566,7 +591,7 @@
       type: "tutorial"
       title: "Provability of Complexity Lower Bounds"
       speaker: "Rahul Santhanam"
-      id: rahul-santhanam-3"
+      id: "rahul-santhanam-3"
       abstract: |
                 TBA
     - time: "11:30"
