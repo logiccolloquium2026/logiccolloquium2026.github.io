@@ -1396,7 +1396,7 @@ h6,
 
 /* Schedule Block Layout Layout */
 .schedule-container {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -1446,7 +1446,7 @@ h6,
 /* Break Style */
 .break {
     background-color: #f8fafc;
-    border-left: 4px solid #94a3b8;
+   // border-left: 4px solid #94a3b8; 
 }
 .break .time { background-color: #e2e8f0; }
 
@@ -1553,7 +1553,7 @@ h6,
 
 /* Banner box style for the main title row */
 .parallel-main-header {
-    background-color: #f8fafc;
+    background-color: rgba(0, 90, 143,0.4);
     padding: 12px 20px;
     border-bottom: 1px solid #e2e8f0;
 }
@@ -1570,4 +1570,25 @@ h6,
 /* Remove border-radius overlap rules if needed */
 .parallel-container .track-columns {
     background-color: #e2e8f0;
+}
+
+.plenary {
+    background-color: rgb(155, 245, 0);
+}
+
+.tutorial {
+    background-color: rgb(255, 206, 37);
+}
+
+.special {
+    background-color: rgba(245, 0, 155,0.2);
+}
+
+.social {
+    background-color: rgba(0, 154, 246, 0.2)
+}
+
+.break-block > .event-details {
+    background-color: #e3e3e3;
+    text-align: center;
 }

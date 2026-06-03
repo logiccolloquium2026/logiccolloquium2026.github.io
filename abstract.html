@@ -18,65 +18,75 @@ permalink: /abstract/
       {% endfor %}
   {% endfor %}
 {% endfor %}
-
 <script>
-        // 1. Build a clean, flat dictionary by mapping internal parameters explicitly
+        // 1. Safe compilation engine using native JSON serialization
+        const rawScheduleData = {{ site.data.schedule | jsonify }};
         const db = {};
 
-        {% for day in site.data.schedule %}
-            {% if day.blocks %}
-                {% for block in day.blocks %}
-                    
-                    /* Track Single Plenaries or Keynotes */
-                    {% if block.id and block.abstract %}
-                        db["{{ block.id }}"] = {
-                            title: "{{ block.title | escape }}",
-                            speaker: "{{ block.speaker | escape }}",
-                            room: "{{ block.room | escape }}",
-                            body: "{{ block.abstract | strip_newlines | escape }}"
-                        };
-                    {% endif %}
-                    
-                    /* Track Multi-Column Special Session Presentations */
-                    {% if block.tracks %}
-                        {% for track in block.tracks %}
-                            {% if track.talks %}
-                                {% for talk in track.talks %}
-                                    {% if talk.id and talk.abstract %}
-                                        db["{{ talk.id }}"] = {
-                                            title: "{{ talk.title | escape }}",
-                                            speaker: "{{ talk.speaker | escape }}",
-                                            room: "{{ track.room | escape }}",
-                                            body: "{{ talk.abstract | strip_newlines | escape }}"
-                                        };
-                                    {% endif %}
-                                {% endfor %}
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
+        // 2. Client-side flat mapping processing
+        if (rawScheduleData && Array.isArray(rawScheduleData)) {
+            rawScheduleData.forEach(day => {
+                if (day.blocks && Array.isArray(day.blocks)) {
+                    day.blocks.forEach(block => {
+                        
+                        // Map Single Plenaries / Keynotes
+                        if (block.id && block.abstract) {
+                            db[block.id] = {
+                                title: block.title,
+                                speaker: block.speaker || "",
+                                room: block.room || "",
+                                body: block.abstract
+                            };
+                        }
+                        
+                        // Map Multi-Column Parallel Sessions
+                        if (block.tracks && Array.isArray(block.tracks)) {
+                            block.tracks.forEach(track => {
+                                if (track.talks && Array.isArray(track.talks)) {
+                                    track.talks.forEach(talk => {
+                                        if (talk.id && talk.abstract) {
+                                            db[talk.id] = {
+                                                title: talk.title,
+                                                speaker: talk.speaker || "",
+                                                room: track.room || "", // Inherits the track's room assignment
+                                                body: talk.abstract
+                                            };
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                        
+                    });
+                }
+            });
+        }
 
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
-
-        // 2. Grabs the ID parameter string and manages rendering target components
+        // 3. Dynamic Router and DOM Hydration Engine
         window.addEventListener('DOMContentLoaded', () => {
             const id = new URLSearchParams(window.location.search).get('id');
             const talk = db[id];
             
             if (talk) {
                 document.getElementById('render-title').innerText = talk.title;
-                document.getElementById('render-speaker').innerText = "Speaker: " + talk.speaker;
+                document.getElementById('render-speaker').innerText = talk.speaker ? "Speaker: " + talk.speaker : "";
                 document.getElementById('render-room').innerText = talk.room ? "📍 Location: " + talk.room : "";
-                document.getElementById('render-body').innerText = talk.body;
+                
+                // Uses pre-line style logic natively to support clean text paragraph spacing
+                const bodyElement = document.getElementById('render-body');
+                bodyElement.style.whiteSpace = "pre-line"; 
+                bodyElement.innerText = talk.body;
             } else {
                 document.getElementById('render-title').innerText = "Abstract Not Found";
                 document.getElementById('render-speaker').innerText = "";
                 document.getElementById('render-room').innerText = "";
-                document.getElementById('render-body').innerText = "We couldn't find an abstract matching that ID. Please check the schedule layout and try again.";
+                document.getElementById('render-body').innerText = "We couldn't find an abstract matching that ID. Please check the schedule layout link and try again.";
             }
         });
-    </script>
+</script>
+
+
+
 <article class="abstract-container" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
     <a href="/index.html" style="text-decoration: none; color: #0284c7; font-weight: 600;">&larr; Back to Schedule</a>
     
