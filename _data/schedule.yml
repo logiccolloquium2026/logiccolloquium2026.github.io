@@ -121,6 +121,17 @@
               speaker: "Nox Cowie"
               id: "nox-cowie"
               time: "12:20"
+              abstract: |
+                        The classical natural deduction system $N K$ can be obtained from the intuitionistic $N J$ by adding a double negation elimination inference rule. On the other hand, the intuitionistic and classical sequent calculi $LJ$ and $LK$ are differentiated by the number of formulae that can be contained in the right-hand side of a sequent. In an $LJ$-derivation, the right-hand side of a sequent can contain at most one formula; $LK$is obtained by lifting this restriction. This distinction between $LJ$ and $LK$ is notably different from that between $N J$ and $N K$: the first being purely structural and the second involving the addition of a classical inference pattern. We demonstrate how the classical strength of double negation elimination emerges from right multiplicity by examining the relationship between derivations in natural deduction and sequent calculus and applications of their respective implication and negation rules. This clarifies how multiplicity constitutes a counterpart to double negation elimination.
+
+                        [1] A.G. Dragalin, Mathematical Intuitionism: Introduction to Proof Theory. Translations of Mathematical Monographs, American Mathematical Society, (1988).
+                        [2] D.M. Gabbay and N. Olivetti, Goal Directed Proof Theory. Applied Logic Series, Springer Dordrecht, (2000).
+                        [3] G. Gentzen, Untersuchungen  ̈uber das logische Schließen., The Collected Papers of Gerhard Gentzen (Szabo, M. E., editor), North-Holland Publishing Company, Amsterdam, (1969), pp. 68–131.
+                        [4] S.C. Kleene, Introduction to Metamathematics. North-Holland Publishing Company, (1952).
+                        [5] S. Maehara, Eine Darstellung der Intuitionistischen Logik in der Klassischen.,Nagoya Mathematical Journal, vol. 7 (1954), pp. 45–64.
+                        [6] P. Milne, Harmony, purity, simplicity and a “seemingly magical fact.”, The Monist, vol. 85 (2002), no. 4, pp. 498-534.
+                        [7] V. de Paiva and L. Pereira, A short note on intuitionistic propositional logic with multiple conclusions., Manuscrito, vol. 28 (2005), no. 2, pp. 317–329.
+                        [8] G. Restall, Structural rules in natural deduction with alternatives., Bulletin of the Section of Logic, vol. 52 (2023), no. 2, pp. 109–143.
     - time: "12:45"
       title: "Lunch break"
       type: "break"
@@ -161,6 +172,8 @@
               speaker: "Mathilde Fichen"
               id: "mathilde-fichen"
               time: "16:25"
+              abstract: |
+                        The programming language Prolog, developed in the early 1970s by research teams in Marseille and Edinburgh, highlights the difficulty of grasping the epistemological nature of the complex object that a programming language represents. Whereas most pre-existing programming languages belong to a common genealogy - a language being created either as a continuation of, or in reaction to, a pre-existing language deemed insufficient - thereby granting these objects membership within the same technical family, Prolog was not initially designed as a programming language. The language emerged through successive iterations from an automated theorem-proving tool used within a natural language processing project. This gradual emergence also makes it difficult to pinpoint the exact moment when Prolog “became” a programming language and ceased to be merely a proving tool. Prolog’s particular genealogy calls into question, from within, the boundaries defining membership in the category of technical objects. By studying the social, scientific, and cultural context in which Prolog first appeared and subsequently developed - namely, the emerging field of artificial intelligence research in Europe during the 1970s and 1980s - we seek to better characterize the nature of this complex object by observing the concrete manifestations of the language’s existence. Particular attention will be paid to the performative power of the language, which helped disseminate the mechanisms of automated deduction that were then predominant in AI research during those decades.
             - title: "Writing the history of Logic and Computing"
               speaker: "John Tucker"
               id: "john-tucker"
@@ -176,14 +189,41 @@
               speaker: "Manon Blanc"
               id: "manon-blanc"
               time: "15:45"
+              abstract: |
+                        In computer science, discrete, or digital, structures have been widely studied. It comes from highly discrete settings of today’s computers: they represent and compute over finite quantities. Their physical components are constrained to operate in a binary true/false regime. Thus, the mathematical models of computation that we use to describe them, such as Turing machines, are discrete: they operate with integers and/or words on a finite alphabet, step by step, that is, in discrete time. However, the world around us is continuous and can be described by ordinary differential equations (ODEs), like in physics and other applied sciences, such as biology. For example, the computers we currently use are made up of analogue electronic components, which are naturally defined, in physics, by certain ODEs over continuous settings. We also have mathematical models for analogue machines and analogue computers, such as the ”General Purpose Analog Computer” proposed by Claude Shannon in the 1940s ([5]). These models can be seen as the analogue equivalent of Turing machines.
+
+                        Now, we have quite good characterisations of the notions of cost, or complexity, in discrete models, which are all equivalent up to some polynomial thanks to the Church-Turing thesis. We are interested in having good characterisations of complexity for analogue and continuous models. Also, we study the computing power of such models: understanding whether we could compute more and faster with them. We present here some existing results ([1, 2, 3, 4]) regarding (ODE-based) characterisations of time and space for continuous problems in the model of computable analysis.
+
+                        [1] Manon Blanc, Discrete-Time and Continuous-Time Systems over the Reals: Relating Complexity with Robustness, Length and Precision, Institut Polytechnique de Paris, PhD Thesis, 2025.
+                        [2] Olivier Bournez and Amaury Pouly, A survey on analog models of computation, Handbook of Computability and Complexity in Analysis, Theory and Applications of Computability, Springer, 2021.
+                        [3] Riccardo Gozzi, Analog characterization of complexity classes, Universidade de Lisboa Instituto Superior Tecnico, PhD Thesis, 2022.
+                        [4] Amaury Pouly, Continuous models of computation: from computability to complexity, Institut Polytechnique de Paris, PhD Thesis 2015.
+                        [5] Claude E. Shannon, Mathematical Theory of the Differential Analyser,Journal of Mathematics and Physics MIT, vol. 20 (1941), pp. 337–354.
             - title: "Extracting certified programs from type-theoretic proofs in analysis and topology"
               speaker: "Holger Thies"
               id: "holger-thies"
               time: "16:25"
+              abstract: |
+                        Recent developments in proof assistants based on dependent type theory have made it possible to formalize substantial parts of analysis and topology while preserving computational content. In this talk, we discuss approaches to extracting certified programs from formal proofs in constructive type theory, with a focus on computable analysis and exact real computation. Topics include efficient representations for exact real computation, operations on hyperspaces and subsets, and solution operators for ordinary differential equations.
+
+                        Parts of the talk are based on joint work with Michal Konecný and Sewon Park.
             - title: "Computable subcontinua and effective decomposability of arcs and arc-like continua"
               speaker: "Matea Čelar"
               id: "matea-celar"
               time: "17:15"
+              abstract: |
+                        A continuum (compact and connected metric space) is said to be decomposable if it can be written as a union of two proper subcontinua. Although it may seem that all nontrivial continua are decomposable, indecomposable continua naturally arise in various contexts in dynamical systems [1]. In computable topology, decomposability arises as a condition in the investigation of computable subcontinua of semicomputable chaniable continua [3].
+
+                        We aim to investigate which computable metric continuua are expressible as a union of two computable proper subcontinua. We will call such continua effectively decomposable. A decomposable continuum can alternatively be characterised as a continuum which contains a proper subcontinuum with non-empty interior [4]. Therefore, determining whether a given continuum is effectively decomposable is closely related to identifying its computable proper subcontinua.
+
+                        In this talk, we will examine effectively compact continua which contain (a homeomorphic copy of) R as an open subset and, more generally, (topologically) decomposable chainable (arc-like) continua. We will show how to construct computable proper subcontinua of such continua and how this implies that such continua are effectively decomposable.
+
+                        This talk contains joint work with V. Čačić, M. Horvat, Z. Iljazović, M. Jelić and D. Tarandek.
+
+                        [1] M. Barge and R.M. Gilette, Indecomposability and dynamics of invariant plane separating continua, Contemporary Mathematics, vol. 117 (1991), pp. 13–38.
+                        [2] V. Čačić, M. Čelar, M. Horvat, and Z. Iljazović, Computable approximations of semicomputable graphs, Logical Methods in Computer Science, vol. 22 (2026).
+                        [3] Z. Iljazović and B. Pažek, Computable intersection points, Computability, vol. 7 (2018), pp. 57–99.
+                        [4] A. Illanes, Continuum Theory, Universitext, Springer Cham, 2025.
           
 
 - id: "tuesday"
@@ -244,6 +284,16 @@
               speaker: "Jeremy Beard"
               time: "11:40"
               id: "jeremy-beard"
+              abstract: |
+                        Limit models are a useful replacement for saturated models in abstract elementary classes, where saturated models can be less well behaved than in first order. The question of which limit models are isomorphic has proved important when approaching the main test question of AECs, Shelah’s categoricity conjecture. Historically, limit models have mostly been studied in superstable AECs. In this talk, we’ll discuss recent results that shed light on how limit models behave in strictly stable AECs. In particular, we present (as much as time allows):
+                        
+                        1. A full characterisation of isomorphism types of limit models with a nicely behaved forking-like relation - ‘long’ limits are isomorphic, and ‘short’ limits are non-isomorphic. In particular, this applies to all first order stable theories [3].
+                        2. The most general ‘positive’ isomorphism of limit models result (to my knowledge), assuming only a relation with weak forms of uniqueness and extension (similar to λ-splitting) [1].
+                        3. ‘Long’ limit models are disjoint (non-forking) amalgamation bases [2].
+
+                        [1] Jeremy Beard, Long limit models are isomorphic assuming a splitting-like relation, arXiv.2511.18665 (2025).
+                        [2] Disjoint non-forking amalgamation in stable AECs, arXiv.2601.12439 (2026).
+                        [3] Jeremy Beard and Marcos Mazari-Armida, On the spectrum of limit models, Annals of Pure and Applied Logic, vol. 176, no. 10, pp. 103647.
             - title: "The hybrids of holographic Jonsson theories and their Jonsson spectrum"
               speaker: "Nazerke Mussina, Indira Tungushbayeva, Aibat Yeshkeyev"
               time: "12:00"
@@ -263,10 +313,25 @@
               speaker: "Charles Walzer"
               time: "12:00"
               id: "charles-walzer"
+              abstract: |
+                        This work develops a labelled sequent calculus for logics based on truthmaker semantics, a model-theoretic framework in which the notion of exact truthmaking is primitive. An exact truthmaker for $\varphi$ is a state that necessitates and is wholly relevant to $\varphi$’s truth. Different kinds of truthmaking and entailment relations are defined in terms of exact truthmaking and certain closure conditions on models [1]. A core feature of truthmaker semantics is that it provides a framework for constructing hyperintensional logics, i.e., logics that allow for contexts that do not respect classical logical equivalence. Labelled sequent calculi provide a powerful extension of Gentzen-style proof systems in which model-theoretic notions can be represented in a uniform and modular way, while preserving important structural properties from proof theory, such as the syntactic admissibility of cut. Our proof system subsumes previous approaches from Fine and Jago [2] and Korbmacher [4], providing calculi for logics based on non-inclusive, inclusive, and replete classes of exact truthmaker models. The labelling mechanism also allows the calculus to uniformly represent the derivative notions of inexact, loose, and exemplification truthmaking. Different label distributions also allow for the definition of different kinds of entailment relations for each kind of truthmaking, with a proof of soundness and completeness uniformly covering all such cases. Finally, we provide modal companions for each of the above-mentioned variants of truthmaking. This is accomplished by defining a suitable labelled calculus for modal information logics, extending previous results from van Benthem [5] and Knudstorp [3].
+
+                        [1] K. Fine, Truthmaker semantics, A Companion to the Philosophy of Language (Bob Hale, Crispin Wright, and Alexander Miller, editors), Wiley, Oxford, 2017, pp. 556–577.
+                        [2] K. Fine and M. Jago, Logic for exact entailment, The Review of Symbolic Logic, vol. 12 (2019), no. 3, pp. 536–556.
+                        [3] S.B. Knudstorp, Logics of truthmaker semantics: Comparison, compactness and decidability, Synthese, vol. 202 (2023), no. 6, pp. 206.
+                        [4] J. Korbmacher, Proof systems for exact entailment, The Review of Symbolic Logic, vol. 16 (2022), no. 4, pp. 1260–1295.
+                        [5] J. van Benthem, Implicit and explicit stances in logic, Journal of Philosophical Logic, vol. 48 (2019), no. 3, pp. 571–601.
             - title: "A truthmaker semantics for positive free logic"
               speaker: "Ragna Oeynhausen"
               time: "12:20"
               id: "ragna-oeynhausen"
+              abstract: |
+                        This paper attempts to develop an exact truthmaker semantics for positive free logic. On this account, a truthmaker for a proposition is a state (a possible fact) that makes the proposition true. While, classically, an atomic statement is true iff the object denoted by the individual term falls under the given predicate, the current proposal analyses truth with reference to verifying facts. Consequently, the truthmaker approach is particularly suited to handle statements containing empty singular terms, i.e. singular terms that do not denote an object in the domain. Logics that admit empty-termed statements are called free; if empty-termed statements may be true, the logic is a positive free logic.
+
+                        This paper adopts the exact truthmaker semantics developed in [1] and extends the proposal for first-order sentences, quantifiers, identity, and possibly empty singular terms. After providing the generalised semantical rules, a soundness and completeness result will be established. Along the way, it will be shown that the current proposal provides an exactification of the well-known dual-domain semantics for positive free logics (see [2] for a modern presentation). Translations between the two models will be provided. Finally, it is argued that the truthmaker account is preferable on philosophical grounds.
+
+                        [1] Kit Fine, Truthmaker Semantics, A Companion to the Philosophy of Language (Bob Hale et al., editors), Wiley Blackwell, Chichester, West Sussex, UK, 2017, pp. 556–577.
+                        [2] Edgar Morscher and Peter Simons, Free Logic: A Fifty-Year Past and an Open Future, New Essays in Free Logic (Edgar Morscher and Alexander Hieke, editors), Springer, Dordrecht, 2001, pp. 1–34.
         - name: "Proof Theory"
           room: "Lecture Room 002"
           talks:
@@ -289,6 +354,12 @@
               speaker: "Alvaro Diaz Ramos"
               time: "11:40"
               id: "alvaro-diaz-ramos"
+              abstract: |
+                        Generalizing the arithmetic operations on the ordinals and cardinals, in the early 20th century, Hausdorff, followed by Whitehead and Russell, put forth the basic operations of addition and multiplication of linear orders. These were later studied in more general settings by Tarski and Birkhoff. What’s surprising about this early period is that none of these authors ever attempted to justify their focus on these operations, beyond invoking the previous success of their study on ordinals. In fact, there has never been a formal justification given for this choice of operations.
+
+                        In this talk, I will discuss our attempt to justify the naturality of the sum of linear orders by appealing to the categorical notion of sum provided by the coproduct. As it turns out, the category of linear orders in general lacks coproducts, so we develop a general theory of sums of linear orders, which are natural extensions of the coproduct in this setting. I will isolate algebraic and order-theoretic properties satisfied by the traditional sum of linear orders, and identify different sums exhibiting them. The most prominent and well-behaved of these are the simple sums, which emerge from sum-generating classes: classes of orders with a very rich algebraic structure. Most of the properties of the simple sums will in fact not hold in general, as I will show by introducing the method of complicated classes, a general approach to constructing unstructured sums.
+
+                        Finally, I will discuss commutative sums of well-orders, which offer new proofs to many of the ordinals’ order-theoretic properties — in particular, giving strict bounds on the possible sums of two ordinals. I will also discuss a recent extension of sums to other categories, including those of groups and modules.
             - title: "Broad Infinity implies Mahlo assuming Choice: a direct proof"
               speaker: "Paul Blain Levy"
               time: "12:00"
@@ -324,14 +395,43 @@
               title: "On decidability and bounded proofs in fragments of computability logic"
               speaker: "Stella Spadoni"
               id: "spadoni-computability"
+              abstract: |
+                        Computability logic (CoL) reinterprets logic as a formal theory of dynamic interaction, modelling statements as computational games between pre-defined agents $\mathcal{M}$ and $\mathcal{E}$ [3]. The present work tackles two open problems regarding CoL fragments CL15 [4] and CL5 [2].
+
+                        Firstly, we prove CL15 decidable [5]: the potentially infinite search space from resource contraction can be pruned while preserving completeness, bounding contraction applications through a function of the cirquent’s complexity. Secondly, we develop a novel and purely syntactic proof that any derivable cirquent in the duplication-free version of CL5 admits a polynomial-size derivation [1], bounded by three structural limits (width, branch length and node size) in the bottom-up proof construction.
+
+                        [1] Matthew Steven Bauer, The Computational Complexity of Propositional Cirquent Calculus, Logical Methods in Computer Science, vol. 11 (2015), no. 1, Art. 12.
+                        [2] Giorgi Japaridze, Introduction to Cirquent Calculus and Abstract Resource Semantics, Journal of Logic and Computation, vol. 16 (2006), no. 4, pp. 489–532.
+                        [3] In the beginning was game semantics , Games: Unifying Logic, Language and Philosophy, (Ondrej Majer and Ahti-Veikko Pietarinen and Tero Tulenheimo, editors), Logic, Epistemology, and the Unity of Science, vol. 15, Springer, 2009, pp. 249–350.
+                        [4] The taming of recurrences in computability logic through cirquent calculus, Part I, Archive for Mathematical Logic, vol. 52 (2013), no. 2, pp. 173–212.
+                        [5] Stella Spadoni, The Fertile Steppe: Computability Logic and the decidability of one of its fragments, arXiv:2503.05826v1(2025).
             - time: "16:05"
               title: "On protocol security via computability logic"
               speaker: "Cosimo Perini Brogi"
               id: "brogi-computability"
+              abstract: |
+                        Experience in cybersecurity shows that communication protocol design is exceptionally error-prone: security weaknesses often arise less from defects in cryptographic primitives than from flawed protocols, owing to the incorrect logical interplay among agents and potential adversaries in a network. Empirical evidence likewise suggests that ‘verification is only as sound as the language we used for it’ [1].
+
+                        We propose computability logic (CoL) [2] as a formal foundation for modelling, analysing and verifying secure communication protocols by treating specifications as interactive games between computational agents.
+
+                        We argue that CoL naturally captures protocol dynamics and formally identifies structural invariants that underlie classes of vulnerabilities and attacks. Moreover, its constructive character favours automated strategy extraction and synthesis of correctby-construction executable artefacts from verification proofs while preserving the gametheoretic, interactive nature of protocols.
+
+                        We consider a CL4-based case study we presented at ITASEC 2026 to show the feasibility of our approach on representative protocol patterns, and outline theoretical and practical directions for extending the method to broader protocol families. This work in progress aims to advance logical verification methods for real-world secure communication.
+
+                        [1] Ross J. Anderson, Security engineering – A guide to building dependable distributed systems (3rd ed.), Wiley, 2020.
+                        [2] Giorgi Japaridze, Introduction to computability logic, Annals of Pure and Applied Logic, vol. 123 (2003), no. 1–3, pp. 1–99.
             - time: "16:25"
               title: "Strong reductions are adaptors"
               speaker: "Ian Price"
               id: "price-computability"
+              abstract: |
+                        Pradic and Price characterise Weihrauch reductions as morphisms in the category of answerable containers over represented spaces [3]. This abstract characterisation allows them to show that much of the algebraic structure of the Weihrauch lattice exists for general reasons rather than being tied to type-2 computability. However, it was not clear how to express strong Weihrauch reductions (reductions where the backwards map only depends on the answers from the oracle and not the initial question) in this setting.
+
+                        Independently, in an attempt to generalise dependent polynomial functors and optics, Hedges et al. worked on a program of “Fibre Optics” [1], from which they produced a structure they term a “dependent adaptor” [2]. This structure turns out to be exactly what is needed to give a category-theoretic treatment of strong Weihrauch reducibility. We give a characterisation of strong reducibility in terms of adaptors and are able to recover the Galois connection given by cylindrification.
+
+                        [1] Dylan Braithwaite, Matteo Capucci, Bruno Gavranović, Jules Hedges and Eigil Fjeldgren Rischel, Fibre Optics, arXiv.2112.11145 (2021).
+                        [2] Jules Hedges Fibre Optics II, draft.
+                        [3] Cécilia Pradic and Ian Price, Weihrauch Problems as Containers, Crossroads of Computability and Logic: Insights, Inspirations, and Innovations(Arnold Beckmann, Isabel Oitaven and Florin Manea, editors), Lecture Notes in Computer Science, vol. 15764, Springer Cham, 2025, pp. 395-409.
         - name: "Model Theory"
           room: "Board Room (401)"
           talks:
@@ -347,6 +447,19 @@
               title: "Localic Esakia duality"
               speaker: "Nesta van der Schaaf"
               id: "vanderschaaf-model"
+              abstract: |
+                        Classical Priestley duality for distributive lattices and Esakia duality for Heyting algebras use prime ideals to recover their spatial counterpart. This is non-constructive: it uses the Prime Ideal Theorem to recover the lattice. In this talk we outline a constructive Esakia duality.
+
+                        A constructive Priestley duality was already proven by Townsend [2]. Distributive lattices are replaced by their point-free variant: coherent frames. Priestley spaces are replaced by ordered Stone locales: Stone locales equipped with closed localic partial orders satisfying a point-free Priestley separation axiom. Townsend proved they are dually equivalent.
+
+                        As point-free ingredients for Esakia duality, we take on the algebra side the recently introduced Heyting frames [1]. On the other hand, observe that Esakia spaces are Priestley spaces whose source map is open. Thus define Esakia locales as ordered Stone locales with open source map.
+
+                        Since localic relations are tricky to handle, we use a third, mediating notion. We prove that closed localic relations with open source map can be recovered by their localic down closure operator. Thus the partial order of an Esakia locale is captured entirely by a join-preserving map on the underlying frame. Axiomatising this structure gives Esakia frames.
+
+                        The conclusion is an equivalence between Heyting frames and Esakia frames, and a dual equivalence between Esakia frames and Esakia locales. Combined, this factorises Townsend’s duality, and gives a fully constructive, localic analogue of Esakia duality.
+
+                        [1] G. Bezhanishvili, L. Carai, and P. J. Morandi, A frame-theoretic perspective on Esakia duality, Algebra Universalis, vol. 84 (2023), no. 4, pp. 30.1–30.24.
+                        [2] C. Townsend, Localic Priestley duality, Journal of Pure and Applied Algebra, vol. 116 (1997), no. 1, pp. 323–335.
         - name: "Philosophy of Mathematics/History"
           room: "Robert Recorde (102)"
           talks:
@@ -358,10 +471,18 @@
               title: "Leibniz and Russell: on the birth of analytic philosophy"
               speaker: "Karol Wapniarski"
               id: "wapniarski-philosophy"
+              abstract: |
+                        Although Bertrand Russell’s interpretation of Leibniz philosophy is as well known as lasting are his contributions to Leibniz scholarship in the 20th century, the question to what extent reading Leibniz influenced development of Russell’s own philosophy has received well deserved scholarly attention only recently and remains understud- ied. While it is usually recognised that Leibniz did influenced Russell, the scholarly discourse rarely goes into intricacies of what this influence consisted in precisely anto what extent we should assume its presence and acknowledge its importance. The issue therefore remains obscure, especially when it comes to assessing Leibniz’s role in Russell’s transition from idealism to logicism.
+
+                        What I propose is a re-examination of Leibniz’s influence on Russell through a study of the so far neglected but important in this regard Russell- Couturat Correspondence [1] (1897-1913), particularly a substantial discussion on Leibniz in the years 1900-1903. What it reveals is that Russell continued to engage with Leibnizian philosophy beyond the composition of his An Exposition of the Philosophy of Leibniz, up to the time of writing The Principles of Mathematics. It also shows that the beginnings of this engagement, in contrast to the usual account, were not random but carefully though out, and that Russell explicitly recognised himself as a successor of Leibniz’s logical endeavours. Through the study of this correspondence, I argue that Leibniz’s influence on Russell extends well beyond the documented impact and that reassessing this influence can help us better understand ambitions of the early analytic philosophy.
+
+                        [1] Bertrand Russell, Correspondance sur la philosophie, la logique et la politique avec Louis Couturat (1897–1913), ed. by Anne-Françoise Schmid, 2 vols., Kimé, Paris, 2001.
             - time: "16:25"
               title: "An introduction to Husserl's phenomenology: on the nature of numbers"
               speaker: "Rezan Burcu Büyükikiz"
               id: "buyukikiz-philosophy"
+              abstract: |
+                        This talk examines the conceptual development of Edmund Husserl’s philosophy of mathematics, tracing the transition from his 1887 habilitation thesis, Über den Begriff der Zahl, to his 1907 lectures, The Idea of Phenomenology. We focus on the concept of “Colligation” (Kolligation) as a temporal-psychological act of the subject and its eventual transformation into the phenomenological concept of “givenness” (Gegebenheit). Drawing on Elisabeth Ströker’s transcendental analysis, we argue that Husserl’s early work on numbers provides a crucial grounding for pure logic and epistemology. Finally, we discuss how the “Heraclitean flux” of phenomena necessitates a non-anthropocentric inquiry into the invariant structures of mathematical objects within the flow of experience.
         - name: "Proof Mining"
           room: "Lecture Room 002"
           talks:
@@ -369,6 +490,16 @@
               title: "A worked example in proof mining in uniformly convex Banach spaces"
               speaker: "Andrei Sipos"
               id: "sipos-proof"
+              abstract: |
+                        Proof mining is a research paradigm, initiated by G. Kreisel and highly developed by U. Kohlenbach and his students and collaborators, which aims to apply proof-theoretic tools to extract computational content from ordinary proofs in mainstream mathematics (for more information on proof mining, see the book [1] and the recent survey [2]).
+                        
+                        Usually, the main obstacle that such activity presents is that the arguments frequently used by mathematicians appeal to highly infinitary principles that may not admit a simple computational interpretation. In functional analysis, this would translate into the existence of ‘ideal’ points such as limits (be they limits superior or inferior). A close viewing of the proof may show that the use of these ideal principles is not really needed for getting to the conclusion of the theorem, at the expense of making the argument slightly messier.
+
+                        We present a pedagogical worked example that illustrates this methodology. We take a result of Prüss [3] which shows that uniform convexity of Banach spaces is equivalent to a different inequality governed by a modulus. The equivalence proof heavily uses limits superior. We explain how this may be rewritten into an argument that only uses inequalities of norms of ordinary points, and we show how it may be done quantitatively, deriving an expression of said modulus in terms of the modulus of uniform convexity.
+
+                        [1] U. Kohlenbach, Applied proof theory: Proof interpretations and their use in mathematics, Springer Monographs in Mathematics, Springer-Verlag, 2008.
+                        [2] Proof-theoretic methods in nonlinear analysis, Proceedings of the International Congress of Mathematicians 2018 (B. Sirakov, P. Ney de Souza and M. Viana, editors), vol. 2, World Scientific, 2019, pp. 61–82.
+                        [3] Jan Prüss, A characterization of uniform convexity and applications to accretive operators, Hiroshima Mathematical Journal, vol. 11 (1981), no. 2, pp. 229–234.
             - time: "16:05"
               title: "Extracting bounds from proofs involving ultraproducts"
               speaker: "Morenikeji Neri"
@@ -393,6 +524,17 @@
               title: "Conceptions of sets and classes in a class theory with a universal set"
               speaker: "Simone Picenni"
               id: "picenni-set"
+              abstract: |
+                        Following Forster [2] and Button [1], I consider an iterative construction of the set-theoretic universe in which, at each stage, we form all sets of previously available objects and their complements, yielding a universe with a universal set and self-membered sets. I axiomatise these ideas in a Forsterian Set Theory and a Forsterian Class Theory, the latter allowing proper classes to be members of sets.
+
+                        I next revisit the distinction between sets and classes in the context of class theories with a universal set, refining the indefinite extensibility account of this distinction [3, 6]. On the proposed picture, concepts that determine sets are those whose extension is not indefinitely extensible or whose anti-extension is not indefinitely extensible; concepts whose extension and anti-extension are indefinitely extensible correspond to proper classes. A modal potentialist framework to precisify these ideas is developed along the lines of Studd [6] and Linnebo [4]. I conclude by relating this framework to Schindler’s [5] distinction between total and partial classes.
+
+                        [1] T. Button, Wand/Set theories., The Journal of Symbolic Logic, vol. 91 (2024), no. 1, pp. 248–287.
+                        [2] T. Forster, The iterative conception of set, The Review of Symbolic Logic, vol. 1 (2008), no. 1, pp. 97–110.
+                        [3] L. Incurvati, Conceptions of Set and the Foundations of Mathematics, Cambridge University Press, Cambridge, 2020.
+                        [4] Ø. Linnebo, The potential hierarchy of sets, The Review of Symbolic Logic, vol. 6 (2013), no. 2, pp. 205–228.
+                        [5] T. Schindler, Classes, why and how, Philosophical Studies, vol. 176 (2019), no. 2, pp. 407–435.
+                        [6] J. P. Studd, Everything, More or Less, Oxford University Press, Oxford, 2019.
     - time: "16:45"
       type: "break"
       title: "Room change"
@@ -589,6 +731,8 @@
               title: "Generalisations of Ax's theorem on pseudofinite fields"
               speaker: "Stefan Ludwig"
               id: "ludwig-model-theory"
+              abstract: |
+                        A pseudofinite field is an infinite model of the common theory of all finite fields in the language of rings. In 1968, James Ax, building on number-theoretic results, gave an axiomatization of the theory and proved its decidability, as well as a quantifier reduction. Hrushovski generalised this to the algebraic closures of finite fields equipped with a symbol for the Frobenius, and, more recently, to finite fields equipped with an additive character. Motivated by natural number-theoretic examples, we will present a further generalisation of the latter, and, if time permits, consider the theory arising from the combination of both of Hrushovski’s works.
     - time: "18:00"
       type: "social"
       title: "Social dinner"
@@ -627,13 +771,25 @@
           talks:
             - time: "11:40"
               title: "Towards infinitary GL"
-              speaker: "Giovanni Solda"
+              speaker: "Giovanni Soldà"
+              id: "giovanni-solda"
+              abstract: |
+                        In this talk, we introduce an infinitary version of the modal logic $\mathtt{GL}$ that arises when allowing infintary conjunctions and disjunctions of formulas. We will then focus on showing that (extensions of) the logic introduced above can arise as provability logics. This will be done as follows: fixing an admissible class $A$, we consider a theory $T$ extending an infinitary version of $\mathtt{KP}$ plus a large chunk of the atomic diagram of $A$ (much in the spirit of what is done in [1]), and show that the provability predicate $Pr_T$ satisfies Gödel’s diagonal lemma and the Hilbert-Bernays provability conditions.
+
+                        This is joint work with Mojtaba Mojtahedi and Fedor Pakhomov.
+
+                        [1] Jon Barwise, Admissible sets and structures, Perspectives in Mathematical Logic, Springer-Verlag, 1975.
             - time: "12:00"
               title: "On the Goldblatt-Thomason theorem for interpretability logic"
               speaker: "Felix Frigola Gonzalez"
             - time: "12:20"
               title: "The logic behind Hanabi"
               speaker: "Elise Perrotin"
+              id: "elise-perrotin"
+              abstract: |
+                        In the card game Hanabi, players must cooperate to play cards in a certain order without seeing their own cards, sharing information through restricted means of communication. This requires epistemic reasoning: players must think about what other players know, don’t know, and need to know in order to ensure success. Hanabi has received attention from the learning community as a benchmark to test agents’ theory of mind capabilities, but has not been much studied from a symbolic perspective, as formalizing Hanabi in Dynamic Epistemic Logic (DEL), the standard framework for reasoning about knowledge, is at the same time conceptually simple and too heavy for practical use.
+
+                        The lightweight Epistemic Logic of Observation (EL-O) offers an promising alternative to DEL in which to formalize Hanabi. In particular, states in EL-O are sets of atomic epistemic formulas rather than Kripke models. However, EL-O is not quite rich enough for Hanabi: in particular, it does not handle common knowledge for groups of agents that aren’t the coalition of all agents. In this talk I will present my (both published and ongoing) work on enriching EL-O for Hanabi, from determining which standard logic the enriched logic should even be a fragment of, to defining a Hilbert-style axiomatization for this fragment, to then investigating a proof system which allows us to say something about semantics, using it to determine a class of states which includes reachable states in Hanabi and a corresponding class of actions, and finally exploring a number of interesting properties of knowledge in a game of Hanabi. Using these properties, we can then define a lightweight epistemic logic specifically suited for Hanabi, in which states are finite and the satisfiability problem is NP-complete
 
         - name: "Type Theory"
           room: "Board Room (401)"
@@ -644,9 +800,22 @@
             - time: "12:00"
               title: "Towards a Curry-Howard correspondence for existential graphs"
               speaker: "Pablo Donato"
+              id: "pablo-donato"
+              abstract: |
+                        In this talk, I will introduce “scroll nets”, a novel diagrammatic formalism for representing proofs and programs. As the name indicates, it is based on the “scroll”, a topological notation for logical implication invented by Charles S. Peirce at the end of the 19th century for his system of existential graphs (EGs) [3]. In order to obtain a proper notion of static proof object from the inference rules of EGs, we add on top of the scroll a graphical syntax inspired by proof nets [1], which also acts as a form of term annotation in the style of type theory.
+
+                        I will first motivate the notation from a philosophical standpoint, arguing that it captures the smallest motions of deductive reasoning in a very natural way, abstaining from any symbolic means of representation. I will then show how to express proofs in minimal implicative logic by simulating the rules of natural deduction. Through the Curry-Howard correspondence, this will lead us to identify a notion of detour that generalizes that of the simply-typed λ-calculus, making scroll nets into an expressive computational framework. If time remains, I will illustrate how to capture: 1. classical logic and intuitionistic disjunction by considering a horizontal generalization of the scroll first proposed by Oostra [2]; 2. intuitionistic subtraction [4] through a further vertical generalization of my own.
+
+                        [1] Jean-Yves Girard, Linear logic Theoretical Computer Science vol. 50 (1987), no. 1, pp. 1–101
+                        [2] Arnold Oostra, Los gráficos Alfa de Peirce aplicados a la lógica intuicionista, Cuadernos de Sistemática Peirceana, 2010, no. 2, pp. 25–60.
+                        [3] Charles Sanders Peirce, Prolegomena to an Apology for Pragmaticism, The Monist, vol. 16 (1906), no. 4, pp. 492–546.
+                        [4] Cecylia Rauszer Semi-Boolean Algebras and Their Applications to Intuitionistic Logic with Dual Operations Fundamenta Mathematicae vol. 83 (1974), pp. 219–249
             - time: "12:20"
               title: "Certified assurance for railway interlockings: from SAT proofs to mechanised verification in Rocq and Agda"
               speaker: "Harry Bryant"
+              id: "harry-bryant"
+              abstract: |
+                        Safety-critical railway interlockings demand the highest levels of assurance, making formally verified proof checking essential. We present an approach for certifying Z3-generated SAT proof logs of unsatisfiability using Rocq and Agda, focusing on correctness guarantees and extracting a verified proof checker. In Rocq, we implement a checker for RUP proofs of CNF unsatisfiability, including Tseitin transformation steps, reduced Tseitin steps, and deletion steps to improve efficiency. We also developed an Agda prototype formalising Tseitin transformations and RUP inferences to reconstruct Z3 proof-logs. Correctness is established by proving inferences preserve logical entailment: any model of the assumptions satisfies all derived conclusions. Deriving falsity certifies the assumptions are unsatisfiable, enabling integration of Z3 proofs without modifying the proof assistants. Our Rocq framework offers an extensible methodology for certified proof checking: (1) implement the checking procedure, (2) prove soundness of each inference step, and (3) extract a verified OCaml checker. For scalability, we introduce proof-design patterns, including a tautology-based technique for validating Tseitin steps. While prior work, such as SMTCoq and CoqHammer, demonstrates how results from SMT solvers can be formally verified within interactive theorem provers, we extend this to Z3 and its recently introduced RUP format. However, the method- ology for creating correctness proofs is general and applicable to other SMT theories. Verification is crucial to railway interlockings, where ensuring logical soundness and safety are essential.
 
         - name: "Philosophy of Mathematics/Finitism"
           room: "Robert Recorde (102)"
@@ -660,6 +829,14 @@
             - time: "12:20"
               title: "Modal alternative set theory"
               speaker: "Aleksi Honkasalo"
+              id: "aleksi-honkasalo"
+              abstract: |
+                        Petr Vopěnka’s Alternative Set Theory (AST) was proposed as an alternative account of infinity [2]. The axioms of AST include both sets and classes and it is a conservative extension of finite ZF [1]. Sets in AST are all finite in the Cantorian sense, but AST treats some of sets as “naturally infinite”. These sets contain subclasses which are not sets. These subclasses are called proper semisets. Proper classes are infinite both in the Cantorian sense as well from the AST’s viewpoint, but Vopěnka contends that they are merely potentially infinite.
+
+                        However, the motivations behind AST has not been widely understood or accepted. This presentation is a work-in-progress report of an investigation into the question of if AST’s treatment of infinity can be clarified by using modal logic. The leading idea of the modal treatment of the axioms of is to start with a universe sets and claim that this universe can be extended to a universe which contains proper classes. To make room for proper semisets extensions may also contain non-standard elements as sets. The modal treatment of the axioms will also allow for comparison between the treatment of potential infinity in AST and potentialist set theories as well as hopefully gain more insight into the notion of natural infinity.
+
+                        [1] Antonı́n Sochor, Metamathematics of the alternative set theory III, Commentationes Mathematicae Universitatis Carolinae, vol. 24 (1983), no. 1, pp. 137–154.
+                        [2] Petr Vopěnka, Mathematics in the Alternative Set Theory, B.G. Teubner Verlagsegellschaft, 1979.
 
         - name: "Proof Mining"
           room: "Lecture Room 002"
@@ -667,9 +844,20 @@
             - time: "11:40"
               title: "On the structure of convergence proofs in stochastic optimization"
               speaker: "Thomas Powell"
+              id: "thomas-powell"
+              abstract: |
+                        The last two years have seen a rapid advance of proof theory being applied in probability and related fields. This broad project includes many case studies in stochastic optimization: Here proof-theoretic insights have led to both new algorithms and new convergence results, where the latter typically come equipped with quantitative information. A byproduct of these efforts has been a deeper understanding of the broad organisational structure of convergence proofs in optimization, many of which hinge on minor variations of a small number of powerful gambits. I will discuss ongoing work (joint with Alex Wan and Benjamin Langton) to devise new, high-level, and domain-specific logical systems that capture these proof techniques, designed for applications in automated reasoning, including the synthesis of efficient and readable convergence rates, and the automated lifting of nonstochastic proofs to the stochastic setting.
             - time: "12:00"
               title: "A finitistic perspective on convergence results"
               speaker: "Pedro Pinto"
+              id: "pedro-pinto"
+              abstract: |
+                        In this talk, I discuss recent work [3] in proof mining concerning the convergence of a generalized viscosity implicit rule in Hadamard spaces, approached from a finitistic perspective. Proof mining [2] employs proof-theoretical techniques to analyse prima facie noneffective mathematical proofs with the goal of extracting additional informa- tion. Such new information is usually in the form of effective and highly uniform rates or bounds. In the last thirty years, this area of proof theory has been greatly developed by Ulrich Kohlenbach and his collaborators, and proof mining techniques have been particularly successful in applications to nonlinear analysis and adjacent areas. A key feature of proof mining is its ability to unravel complex mathematical arguments, often enabling the replacement of general assumptions by the specific instances actually used in a proof. This has proven particularly fruitful in the lifting of results from linear to nonlinear settings, where many combinatorial aspects of the original arguments can still be exploited. There are, however, limitations and the absence of linear structure often obstructs a direct generalization of such results. In this regard, a finitistic (i.e. quantitative) perspective has proved to be a useful approach for obtaining new results in settings where standard techniques fail, for example in [1, 4].
+
+                        [1] Bruno Dinis and Pedro Pinto, Strong convergence for the alternating Halpern-Mann iteration in CAT(0) spaces, SIAM Journal on Optimization, vol. 33 (2023), no. 2, pp. 785–815.
+                        [2] Ulrich Kohlenbach, Applied proof theory: proof interpretations and their use in mathematics, Springer Monographs in Mathematics, Springer-Verlag, Berlin, 2008.
+                        [3] Pedro Pinto, A finitistic approach to a generalized viscosity implicit rule in Hadamard spaces, in preparation.
+                        [4] Pedro Pinto and Nicholas Pischke, On the Halpern method with adaptive anchoring parameters, Mathematics of Computation, to appear.
             - time: "12:20"
               title: "Effective methods: logic and optimization"
               speaker: "Laurentiu Leustean"
@@ -680,9 +868,19 @@
             - time: "11:40"
               title: "Generic reals and gauge dimensions"
               speaker: "Yiping Miao"
+              id: "yiping-miao"
+              abstract: |
+                        Measure and category are two orthogonal notions. A typical element in a comeager set is generic, and a typical element in a conull set is random. There exists comeager null set, and the set of (Cohen) generic reals provide an example. The set also has Hausdorff dimension zero. However, the set has a perfect subset, suggesting largeness under certain measures. We consider an extended notion of Hausdorff dimension, using a gauge function to count how much an open ball contributes.
+
+                        For any set of reals, the gauge profile of it is the set of gauge functions making the set measure positive. We will show that the complexity of the dense sets the generic meets corresponds nicely with the complexity of functions generating its gauge profile. Then we look at Sacks generics and Mathias generics. These two examples provide a comparison between gauge profile and the complexity of the collection of dense sets.
+
+                        Time allows, we will also discuss the gauge profile of the set of reals compressible by 1/2. This is the random real analogue of the (Cohen) generic case. The set is known to have dimension 1/2 and our work shows the gauge profile is supported on its dimension.
             - time: "12:00"
               title: "Small large cardinals and neostability theory"
-              speaker: "James E. Hanson"      
+              speaker: "James E. Hanson"
+              id: "james-hanson"
+              abstract: |
+                        Neostability theory is the branch of model theory that studies certain classes of combinatorially tame first-order theories and more generally local combinatorial tameness within arbitrary theories. These tameness notions are often intimately linked to the behavior of indiscernible sequences. We will discuss some recent applications of certain small large cardinals (between ineffable and Erdős) in model-theoretic neostability theory and in particular their use in building certain special indiscernible sequences.
     - time: "12:45"
       type: "break"
       title: "Lunch break"
@@ -697,6 +895,11 @@
             - time: "14:15"
               title: "The tree interpretation and transfinite recursion"
               speaker: "Giorgio Genovesi"
+              id: "giorgio-genovesi"
+              abstract: |
+                        The interpretation of ZFC without powerset in the theory of second order arithmetic can be divided into two steps. The first is a tree interpretation, sets are interpreted as well founded trees up to an appropriate equivalence relation needed to ensure extensionality. This gives a theory which satisfies Axiom Beta, that is, the statement that every well founded relation has a collapsing function. The second interpretation is the restriction to an initial segment of the constructible universe. These interpretations give a nice correspondence between subsystems of arithmetic and systems of set theory without the powerset axiom.
+
+                        We go over some generalizations to this interpretation to systems of higher order arithmetic with restricted comprehension and theories of sets with bounded iterations of the powerset of ω. We also show that Axiom Beta implies the scheme of Elementary Transfinite Recursion as well as the totality of the primitive recursive set function. These results are part of a joint work with Emanuele Frittaion.
             - time: "14:35"
               title: "Closed formulas for arbitrary Kalmar elementary functions"
               speaker: "Mihai Prunescu"
@@ -713,12 +916,34 @@
             - time: "14:15"
               title: "Localising overgeneration: a three-strata decomposition of formal proof"
               speaker: "David Appadourai"
+              id: "david-appaourai"
+              abstract: |
+                        Tanswell [2] argues that derivationist accounts of mathematical proof face an over-generation problem: informal proofs can be formalised in multiple, structurally non-equivalent ways, and this multiplicity undermines the philosophical significance of the proof–formalisation correspondence.
+
+                        Tactic-based proof assistants like Lean and Coq make visible a three-strata decomposition that localises overgeneration. The strata are: (1) the informal proof (argumentative prose), (2) the tactic script (executable code that instructs the elaborator to construct a proof term), and (3) the proof term (a typed expression in the Calculus of Inductive Constructions verified by the kernel).
+
+                        The transition from stratum 1 to stratum 2 introduces the multiplicity: one informal proof admits multiple tactic scripts, each reflecting different authorial choices about decomposition and generalisation. But the transition from stratum 2 to stratum 3 is deterministic relative to a fixed environment (Lean version, library commit, import graph): a given tactic script yields exactly one proof term. The elaborator is non-originating in a precise sense: unification and instance resolution work only on content already in the script or the environment.
+
+                        This partition, developed through a Lean formalisation of IMO 2024 Problem 6, is an epistemological result: derivationist accounts must answer the selection question at the formaliser’s authored choices, not at the elaborator’s mechanical construction. The partition is visible only when the formal pole of the standard view [1] is decomposed into script and term.
+
+                        [1] Y. Hamami, Mathematical rigor and proof, The Review of Symbolic Logic, vol. 15 (2022), no. 2, pp. 409–449.
+                        [2] F. Tanswell, A problem with the dependence of informal proofs on formal proofs, Philosophia Mathematica, vol. 23 (2015), no. 3, pp. 295–310.
             - time: "14:35"
               title: "Theory of higher differentiable functionals and applications"
               speaker: "Stan Srednyak"
+              id: "stan-srednyak"
+              abstract: |
+                        Quantum field theory is built on the notion of functionals defined on function spaces. Comparison of theory predictions with experiment requires interpreting data in appropriate functional spaces. We compare physical notions of functionals with mathematical notions of functionals. We then discuss our recent proposal that functionals arbitrarily high in the constructible hierarchy are in fact necessary for description of physical laws. Then we discuss which notions of analysis are necessary to be definable on these higher functional spaces in order for the theory to have predictive power. These notions include the notions of derivative and integral, and we discuss classes of functionals for which these notions can be defined. We provide an example of an infinitely tall tower of functionals which satisfy differential relations at each functional level. We show that if the differential relations have low complexity, then the same is true for the unique solution of these functional relations. This is a paradigmatic example of how higher functionals appear in description of physical systems.
             - time: "14:55"
               title: "Analyticity and contemporary formal theories: Hintikka's typology and the case of type theory"
               speaker: "Ramazan Ayupov"
+              id: "ramazan-ayupov"
+              abstract: |
+                        This talk offers a critique of Jaakko Hintikka’s analysis of analyticity [2], from the perspective of Martin-Löf type theory. Hintikka distinguishes four types of analyticity: conceptual truth; subformulaic or structural analyticity; analyticity as reasoning that introduces no new entities; and analyticity as either tautological or informationally empty. Hintikka’s aim is to formalise a Kantian insight about mathematics: mathematical reasoning is synthetic because it requires construction and cannot be reduced to mere conceptual analysis. However, Hintikka fails to preserve Kantian constructive dimension of analyticity; it is this dimension that will be realized by Martin-Löf [3]. I argue that this Hintikka framework is insufficient for contemporary formal theories. Particularly Martin-Löf’s intuitionistic type theory and its subsequent reinterpretations. In MLTT, the analytic-synthetic distinction is formulated at the level of judgments rather than propositions or argument steps. This shift reveals forms of analyticity tied to proof, construction, hypothetical reasoning and, in later discussions, evaluation and computational semantics [1]. For this reason, MLTT cannot simply be fitted into Hintikka’s typology.
+
+                        [1] Bruno Bentzen, Analyticity and Syntheticity in Type Theory Revisited, The Review of Symbolic Logic, vol. 7 (2024), no. 4, pp. 1119–1145.
+                        [2] Jaakko Hintikka, An Analysis of Analylicity, Logic, Language-Games and Information: Kantian Themes in the Philosophy of Logic Oxford: Clarendon Press, 1973, pp. 123–149.
+                        [3] Per Martin-Löf, Analytic and Synthetic Judgements in Type Theory, Kant and Contemporary Epistemology (Parrini, P., editor), The University of Western Ontario Series in Philosophy of Science, vol. 54, Dordrecht: Springer, 1994, pp. 87–100.
 
         - name: "Proof Theory"
           room: "Lecture Room 002"
@@ -729,6 +954,14 @@
             - time: "14:35"
               title: "Skolemization and Herbrand's Theorem for intermediate logics over predicate abstraction"
               speaker: "Elio La Rosa"
+              id: "elio-la-rosa"
+              abstract: |
+                        I present a new approach to Skolemization and proof of Herbrand’s Theorem for intermediate logics based on predicate abstraction. Predicate abstraction provides terms with a scoping mechanism allowing for de dicto and de re reading of modalities. As Fitting [3] noticed predicate abstractions are useful conservative extensions also for modal logics which cannot represent such distinctions but also cannot represent complete Skolemizations otherwise. In this talk, I show how modalities can be absorbed into predicate abstractions to provide a conservative extension for Intuitionistic and other intermediate logics. Semantically, the interpretation of Skolem functions then corresponds to an intensional version of Bazz and Iemhoff’s approach (e.g., [1]), using existence predicates. The term-scoping mechanism, however, allows for simplified proofs of completeness of Skolemization and a modular approach. The account is proof-theoretic, and based on the nested calculi for intermediate logics first presented by Ciabattoni et al. [2] and turned first-order by Lyon [4]. These calculi are thus extended to identity, predicate abstraction and non-rigid terms. Intuitionistic, Gödel-Dummett and Bunched Implication logics will be covered in their varying and constant domain versions.
+
+                        [1] Matthias Baaz and Rosalie Iemhoff, Eskolemization in Intuitionistic Logic, Journal of Logic and Computation, vol. 21 (2011), no. 4, pp. 625–638.
+                        [2] Agata Ciabattoni, Lutz Straßburger and Matteo Tesi, Taming Bounded Depth with Nested Sequents, AIML 2022 - Advances in Modal Logic (Rennes, France), (David Fernández-Duque, Alessandra Palmigiano and Sophie Pinchinat, editors) College Publications, 2022, pp. 199–216.
+                        [3] Melvin Fitting, A Modal Logic Analog of Smullyan’s Fundamental Theorem, Mathematical Logic Quarterly, vol. 19 (1973), no. 1, pp. 1–16.
+                        [4] Tim Lyon, Nested Sequents for Intermediate Logics: The Case of Gödel-Dummett Logics, Journal of Logic and Computation, vol. 33 (2023), no. 2, pp. 121–164.
             - time: "14:55"
               title: "Well-founded trees with leaf labels, and their applications"
               speaker: "Alakh Dhruv Chopra"    
