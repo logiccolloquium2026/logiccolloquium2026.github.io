@@ -199,13 +199,13 @@ th, td {
                     </div>
                 </div>
 
-                {% elsif block.type == "parallel" %}
+                {% elsif block.type == "parallel" or block.type == "special" %}
 <div class="time-block parallel-container">
     <div class="time-col">{{ block.time }}</div>
     
     <div class="parallel-content-area">
         
-        <div class="parallel-main-header">
+        <div class="parallel-main-header {{ block.type }}">
             <h3>{{ block.title }}</h3>
         </div>
         
@@ -215,16 +215,16 @@ th, td {
                 <div>
                     <h4>{{ track.name }}</h4>
                     {% if track.room %}<div class="track-room">📍 {{ track.room }}</div>{% endif %}
+                    {% if track.organisers %}<div class="track-organisers">Organiser(s): {{ track.organisers }}</div>{% endif %}
                     <ul class="talk-list">
                         {% for talk in track.talks %}
                         <li>
-                            <strong>{{ talk.time }}</strong> 
+                            {% if talk.time %}<i>({{ talk.time }})</i>{% endif %} 
                             {% if talk.abstract %}
-                                <a href="/abstract/?id={{ talk.id }}">{{ talk.title }}</a>
+                                <strong>{{ talk.speaker }}:</strong> <a href="/abstract/?id={{ talk.id }}">{{ talk.title }}</a>
                             {% else %}
-                                {{ talk.title }}
+                                <strong>{{ talk.speaker }}:</strong> {{ talk.title }}
                             {% endif %}
-                            &mdash; <em>{{ talk.speaker }}</em>
                         </li>
                         {% endfor %}
                     </ul>

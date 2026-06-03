@@ -38,46 +38,58 @@
             - title: "Computable structure theory and forcing"
               speaker: "Rusell Miller"
               id: "russel-miller"
+              time: "11:40"
             - title: "Well-ordering principles over recursive comprehension"
               speaker: "Gabriele Buriola"
               id: "gabriele-buriola"
+              time: "12:00"
             - title: "Better-quasi-ordering sequences with the gap condition"
               speaker: "Davide Manca"
+              time: "12:20"
         - name: "Model Theory"
           room: "Board Room (401)"
           talks:
             - title: "Connected components of sets definable in d-minimal expansion of the real field"
               speaker: "Masato Fujita"
               id: "masato-fujita"
+              time: "11:40"
             - title: "Universal equivalence of linear groups over rings"
               speaker: "Galina Kaleeva"
               id: "galina-kaleeva"
+              time: "12:00"
             - title: "On generalisations of a representation of the integers modulo p, for the purpose of occasionally establishing the unsolvability of diophantine inequalities"
               speaker: "André Rognes"
+              time: "12:20"
         - name: "Philosophical Logic"
           room: "Robert Recorde (102)"
           talks:
             - title: "Relative contingency"
               speaker: "Gabriele Pulcini"
               id: "gabriele-pulcini"
+              time: "11:40"
             - title: "Non-composability of realised epistemic access: a type-theoretic account of temporal integration via parametricity"
               speaker: "J. Albert Yoo"
               id: "j-albert-yoo"
+              time: "12:00"
             - title: "Categoricity-like properties applied to some 'friends' of Kf𝜇"
               speaker: "Konstantinos Papafilippou"
               id: "konstantinos-papafilippou"
+              time: "12:20"
         - name: "Proof Theory"
           room: "Lecture Room 002"
           talks:
-            - title: "Separation of induction and collection axiom in bounded arithmetic with student-teacher games"
-              speaker: "Dimitrios Tsintsilidas"
-              id: "dimitrios-tsintslidias"
-            - title: "Double negation elimination and the multiple succedent structure of LK"
-              speaker: "Nox Cowie"
-              id: "nox-cowie"
             - title: "Some averaged zero one laws for segments of proof-theoretic ordinals"
               speaker: "Andreas Weiermann"
               id: "andreas-weiermann"
+              time: "11:40"
+            - title: "Separation of induction and collection axiom in bounded arithmetic with student-teacher games"
+              speaker: "Dimitrios Tsintsilidas"
+              id: "dimitrios-tsintslidias"
+              time: "12:00"
+            - title: "Double negation elimination and the multiple succedent structure of LK"
+              speaker: "Nox Cowie"
+              id: "nox-cowie"
+              time: "12:20"
     - time: "12:45"
       title: "Lunch break"
       type: "break"
@@ -89,11 +101,52 @@
       abstract: |
                 A recent discovery by the speaker is that any subtopos of the effective topos is presented by a bilayer of an oracle and a majority notion. (1) As tools for controlling an oracle, there is Weihrauch reducibility, and (2) as tools for controlling a majority notion, there are the Rudin-Keisler order and the Katetov order.
 
-                    1. The key idea underlying the rst direction is that an oracle may be viewed as a \site" for a subtopos. The speakers have obtained several applications of this idea to constructive reverse mathematics, such as constructing toposes that separate several semiconstructive principles (as a comment for those interested, we have used a priority argument to construct some of such toposes!). Recently, we have extended this method to the topos for total computability (the Grayson topos), enabling the separation of principles weaker than Markov's principle.
+                    1. The key idea underlying the rst direction is that an oracle may be viewed as a \site for a subtopos. The speakers have obtained several applications of this idea to constructive reverse mathematics, such as constructing toposes that separate several semiconstructive principles (as a comment for those interested, we have used a priority argument to construct some of such toposes!). Recently, we have extended this method to the topos for total computability (the Grayson topos), enabling the separation of principles weaker than Markov's principle.
 
                     2. The second direction reveals that, in addition to oracle computability, there is another approach to enhancing computability: Computability by majority. Our recent developments show that the geometric inclusion order on subtoposes (Lawvere-Tierney topologies) obtained from subobjects of double negation sheaves in the effective topos corresponds to a game-theoretic variant (iterated Fubini product) of the Katětov order on lower sets.
                 
                 In this talk, I will provide an overview of these new discoveries regarding subtoposes of effective topos made by the speaker and collaborators over the past few years. This series of studies includes collaborative research with Akihito Kajikawa, Masamori Kaku, Keng Meng Ng, Ming Ng, and Satoshi Nakata.
+    - time: "15:15"
+      title: "Coffee break"
+      type: "break"
+    - time: "15:45"
+      title: "Special Sessions"
+      type: "special"
+      tracks:
+        - name: "History of Logic and Computing"
+          organisers: "Troy Astarte (Swansea)"
+          talks:
+            - title: "On verifying computational systems"
+              speaker: "Giuseppe Primiero"
+              id: "giuseppe-primiero"
+              time: "15:45"
+              abstract: |
+                        The history of formal verification traces an evolving understanding of computational correctness. Early approaches treated programs as abstract and fully specified artefacts, defining correctness as input–output conformity grounded in mathematical proof. With concurrency and large-scale systems, verification expanded to address non-determinism, introducing temporal and probabilistic notions of correctness. In the era of machine learning and AI, systems are opaque, adaptive, and embedded in sociotechnical contexts: correctness now extends beyond functional behaviour to non- functional properties such as trustworthiness, fairness, transparency, and responsibility. We overview this trajectory to show that the central question of formal verification is no longer only whether a system computes correctly, but whether its behaviour can be formally shown to be trustworthy and responsibly governed.
+            - title: "Anatomy of a Programming Language: Prolog and the Beginnings of European Artificial Intelligence Research"
+              speaker: "Mathilde Fichen"
+              id: "mathilde-fichen"
+              time: "16:25"
+            - title: "Writing the history of Logic and Computing"
+              speaker: "John Tucker"
+              time: "17:15"
+              abstract: |
+                        What has mathematical and philosophical logic done for the development of computing? Surely a great deal?  Isn’t logic a foundation of all computing? I will explore historically these broad questions with software development in mind, especially programming language design, specifying and reasoning about programs and systems, and processing natural languages. What are insights that might stand the ruthless tests of technological fashion, cultural memory and economics of education?
+            
+        - name: "Computability in Analysis"
+          organisers: "Daniel Graça (Faro) and Arno Pauly (Swansea)"
+          talks:
+            - title: "Complexity in computable analysis: the notions of costs for analogue models"
+              speaker: "Manon Blanc"
+              id: "manon-blanc"
+              time: "15:45"
+            - title: "Extracting certified programs from type-theoretic proofs in analysis and topology"
+              speaker: "Holger Thies"
+              id: "holger-thies"
+              time: "16:25"
+            - title: "Computable subcontinua and effective decomposability of arcs and arc-like continua"
+              speaker: "Matea Čelar"
+              id: "matea-celar"
+              time: "17:15"
           
 
 - id: "tuesday"
