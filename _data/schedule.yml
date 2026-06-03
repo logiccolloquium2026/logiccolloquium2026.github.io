@@ -17,7 +17,7 @@
       abstract: |
                 We study a generalization of the recursively enumerable sets defined in terms of \Sigma_1-definable functionals at admissible levels of Gödel’s constructively hierarchy. These sets and the corresponding notion of reducibility give rise to a new kind of degree structure for subsets of non-projectible admissible ordinals.
                 This is joint work with N. Greenberg and E. Hammatt.
-    - time: "10:10"
+    - time: "10:15"
       type: "break"
       title: "Coffee break"
     - time: "10:45"
@@ -385,7 +385,7 @@
       type: "break"
       title: "Coffee break"
     - time: "10:45"
-      type: "parallel"
+      type: "special"
       title: "Special Sessions"
       id: "set-type-theory"
       tracks:
@@ -491,8 +491,8 @@
     - time: "15:15"
       type: "break"
       title: "Coffee break"
-    - time: "14:00"
-      type: "parallel"
+    - time: "15:45"
+      type: "special"
       title: "Special Sessions"
       tracks:
         - name: "Pure and Applied Proof Theory"
