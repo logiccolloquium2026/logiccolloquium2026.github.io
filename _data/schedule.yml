@@ -41,8 +41,8 @@
         - name: "Computability, Structure Theory"
           room: "Lecture Room 003"
           talks:
-            - title: "Computable structure theory and forcing"
-              speaker: "Rusell Miller"
+            - title: "Computable elements within tree-presented structures"
+              speaker: "Russell Miller"
               id: "russel-miller"
               time: "11:40"
               abstract: |
