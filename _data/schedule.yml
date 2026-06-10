@@ -732,9 +732,9 @@
               id: "ludwig-model-theory"
               abstract: |
                         A pseudofinite field is an infinite model of the common theory of all finite fields in the language of rings. In 1968, James Ax, building on number-theoretic results, gave an axiomatization of the theory and proved its decidability, as well as a quantifier reduction. Hrushovski generalised this to the algebraic closures of finite fields equipped with a symbol for the Frobenius, and, more recently, to finite fields equipped with an additive character. Motivated by natural number-theoretic examples, we will present a further generalisation of the latter, and, if time permits, consider the theory arising from the combination of both of Hrushovski’s works.
-    - time: "18:00"
+    - time: "19:00 onwards"
       type: "social"
-      title: "Social dinner"
+      title: "Conference dinner"
       
 
 - id: "friday"
