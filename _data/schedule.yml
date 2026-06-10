@@ -253,7 +253,7 @@
       speaker: "Rahul Santhanam"
       id: "rahul-santhanam-1"
       abstract: |
-                TBA
+                P vs NP and related complexity lower bound questions have proven intractable so far, and it is natural to wonder if there are fundamental obstacles to their provability, such as analogues of the incompleteness results of Godel and Chaitin. I will discuss two frameworks within which such questions have been investigated - propositional proof complexity and bounded arithmetic. I will survey progress on the meta-mathematics of complexity lower bounds, as well as bottlenecks to progress. I will also discuss and speculate about connections between proof complexity and computational complexity, which relate the meta-mathematical questions to the underlying mathematical questions.
     - time: "11:30"
       type: "break"
       title: "Room change"
@@ -659,7 +659,7 @@
       speaker: "Rahul Santhanam"
       id: "rahul-santhanam-2"
       abstract: |
-                TBA
+                P vs NP and related complexity lower bound questions have proven intractable so far, and it is natural to wonder if there are fundamental obstacles to their provability, such as analogues of the incompleteness results of Godel and Chaitin. I will discuss two frameworks within which such questions have been investigated - propositional proof complexity and bounded arithmetic. I will survey progress on the meta-mathematics of complexity lower bounds, as well as bottlenecks to progress. I will also discuss and speculate about connections between proof complexity and computational complexity, which relate the meta-mathematical questions to the underlying mathematical questions.
     - time: "12:45"
       type: "break"
       title: "Lunch break"
@@ -756,7 +756,7 @@
       speaker: "Rahul Santhanam"
       id: "rahul-santhanam-3"
       abstract: |
-                TBA
+                P vs NP and related complexity lower bound questions have proven intractable so far, and it is natural to wonder if there are fundamental obstacles to their provability, such as analogues of the incompleteness results of Godel and Chaitin. I will discuss two frameworks within which such questions have been investigated - propositional proof complexity and bounded arithmetic. I will survey progress on the meta-mathematics of complexity lower bounds, as well as bottlenecks to progress. I will also discuss and speculate about connections between proof complexity and computational complexity, which relate the meta-mathematical questions to the underlying mathematical questions.
     - time: "11:30"
       type: "break"
       title: "Room change"
