@@ -728,6 +728,10 @@
               title: "Automatic definability of valuations from an order-topological perspective"
               speaker: "Anna de Mase"
               id: "demase-model-theory"
+              abstract: |
+                        An ordered abelian group $G$ (resp. a field $k$) has automatic ($\emptyset$)-definability if, in every henselian valued field with value group $G$ (resp. residue field $k$), the valuation is ($\emptyset$)-definable in the language of rings. In joint work with B. Boissonneau, F. Jahnke, and P. Touchard, we characterize such groups via the model-theoretic properties of weak and strong augmentability by infinitesimals, and such fields via t-henselianity, in characteristic~0. In this talk, I show that strong augmentability admits an order-topological formulation, and I discuss analogous questions for weak augmentability. I also present an order-topological formulation of t-henselianity in the setting of orderable fields, building on work of Prestel and Ziegler from 1978. The talk includes results from this joint work, as well as ongoing work with L. S. Krapp and S. Kuhlmann.
+
+                        [1] Blaise Boissonneau, Anna De Mase, Franziska Jahnke and Pierre Touchard, Growing spines: ad infinitum et ad infinitesimalia, arXiv:2512.04932 (2025).
               
             - time: "16:25"
               title: "Cofibrant generation of pure monomorphisms in presheaf categories"
