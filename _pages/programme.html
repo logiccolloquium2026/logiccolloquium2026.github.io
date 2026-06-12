@@ -197,7 +197,7 @@ th, td {
                     <div class="time-col">{{ block.time }}</div>
                     <div class="event-details {{ block.type }}">
                         <!-- <span class="badge badge-{{ block.type }}">{{ block.type | upcase }}</span> -->
-                        <!-- {% if block.room %}<span class="room-tag">📍 {{ block.room }}</span>{% endif %} -->
+                        {% if block.room %}<span class="room-tag">📍 {{ block.room }}</span>{% endif %}
                         <h3>
                           {% if block.abstract %}
                                 <a href="/abstract/?id={{ block.id }}"><div id="{{ block.id }}">{{ block.title }}</div></a>
