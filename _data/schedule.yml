@@ -8,12 +8,14 @@
       type: "social"
       title: "Welcome"
       id: "welcome"
+      room: "Lecture Room 002"
 
     - time: "09:15"
       type: "plenary"
       title: "The kappa-Turing degrees"
       speaker: "Juan Pablo Aguilera"
       id: "juan-pablo-aguilera"
+      room: "Lecture Room 002"
       abstract: |
                 We study a generalization of the recursively enumerable sets defined in terms of \(\Sigma_1\)-definable functionals at admissible levels of Gödel’s constructively hierarchy. These sets and the corresponding notion of reducibility give rise to a new kind of degree structure for subsets of non-projectible admissible ordinals.
 
@@ -140,6 +142,7 @@
       type: "plenary"
       speaker: "Takayuki Kihara"
       id: "takayuki-kihara"
+      room: "Lecture Room 002"    
       abstract: |
                 A recent discovery by the speaker is that any subtopos of the effective topos is presented by a bilayer of an oracle and a majority notion. (1) As tools for controlling an oracle, there is Weihrauch reducibility, and (2) as tools for controlling a majority notion, there are the Rudin-Keisler order and the Katetov order.
 
@@ -231,6 +234,7 @@
   blocks:
     - time: "09:15"
       type: "plenary"
+      room: "Lecture Room 002"
       title: "Conceptual change in set theory - between continuity and revolution"
       speaker: "Carolin Antos-Kuby"
       id: "carolin-antos-kuby"
@@ -537,6 +541,7 @@
       title: "Room change"
     - time: "17:00"
       type: "plenary"
+      room: "Lecture Room 002"
       title: "Godel Lecture: Logical & Mathematical Conventionalism"
       speaker: John Burgess
       id: "john-burgess"
@@ -551,6 +556,7 @@
   blocks:
     - time: "09:15"
       type: "plenary"
+      room: "Lecture Room 002"
       speaker: "Liron Cohen"
       title: "The Effects of Effects on Constructivism"
       id: "liron-cohen"
@@ -631,6 +637,7 @@
   blocks:
     - time: "09:15"
       type: "plenary"
+      room: "Lecture Room 002"
       title: "Ultraproduct approximations in metric model theory"
       speaker: "Åsa Hirvonen"
       id: "asa-hirvonen"
@@ -665,6 +672,7 @@
       title: "Lunch break"
     - time: "14:15"
       type: "plenary"
+      room: "Lecture Room 002"
       speaker: "Nicholas Pischke"
       id: "nicholas-pischke"
       title: "Extracting uniform bounds from noneffective proofs in probability theory"
@@ -756,6 +764,7 @@
   blocks:
     - time: "09:15"
       type: "plenary"
+      room: "Lecture Room 002"
       title: "The isomorphism relation of non-Archimedean Polish groups"
       speaker: "Su Gao"
       id: "su-gao"
