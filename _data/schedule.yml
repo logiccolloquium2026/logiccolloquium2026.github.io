@@ -593,7 +593,7 @@
               abstract: | 
                         A Knaster continuum is one which can be written as an inverse limit of intervals $[0,1]$ where each bonding map is a continuous open surjection mapping $0$ to $0$. Knaster continua are examples of indecomposable continua, they cannot be written as the union of two proper subcontinua. The universal Knaster continuum, $K$, is a Knaster continuum which continuously surjects onto any Knaster continuum. The group $\mathrm{Homeo}(K)$ of homeomorphisms of K is a non-locally compact Polish group. The main theorem is that $\mathrm{Homeo}(K)$ contains an open subgroup with a comeager conjugacy class.
               
-            - time: "15:20"
+            - time: "12:05"
               title: "A dichotomy for transitive lists"
               speaker: "Borisa Kuzeljevic"
               id: "kuzeljevic-set-theory"
