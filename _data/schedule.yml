@@ -625,9 +625,21 @@
                         [1] Chris Okasaki, Purely Functional Data Structures, Cambridge University Press, 1998.
                 
             - time: "12:05"
-              title: "TBA"
-              speaker: "TBA"
-              id: "tba-type-theory"
+              title: "Containers in Computable Analysis"
+              speaker: "Ian Price"
+              id: "ian-price-type-theory"
+              abstract: |
+                        Containers were introduced by Abbott et al. to formalise the idea of datatypes as templates into which data is stored [1]. Categories of containers have many good closure properties, including four natural monoidal operations and under initial algebras and terminal coalgebras. Moreover, containers are a mathematical structure that keep getting rediscovered; a post by Hedges claims nine independent rediscoveries [3].
+
+                        Last year, Pradic and Price gave another such example: characterising Weihrauch reductions [2] as morphisms in the category of answerable containers over projective represented spaces [4]. As a consequence, much of the algebraic structure at play in Weihrauch complexity exists for general categorical reasons. However, the category of projectives is not locally cartesian closed, which means that the composition of problems exists only weakly.
+
+                        To give a generic account of operators on the Weihrauch lattice definable by fix-points [5], such as the diamond operator and infinite parallelisation, we define a notion of fibred polynomial functor and prove the existence of initial algebras and terminal coalgebras. From the construction of those (co)algebras arises an intermediate fixpoint ζ which can be used to define some important Weihrauch degrees.
+
+                        [1] Michael Abbott, Thorsten Altenkirch & Neil Ghani, Categories of Containers Foundations of Software Science and Computation Structures (Andrew Gordon, editors), Springer, Berlin, Heidelberg 2003 pp. 23–38.
+                        [2] Vasco Brattka and Guido Gherardi & Arno Pauly Weihrauch Complexity in Computable Analysis Handbook of Computability and Complexity in Analysis (Vasco Brattka and Peter Hertling, editors), Springer Cham 2021 pp. 367–417.
+                        [3] Jules Hedges Lenses for Philosophers https://julesh.com/posts/2018-08-16 lenses-for-philosophers.html
+                        [4] Cecilia Pradic & Ian Price, Weihrauch Problems as Containers, Crossroads of Computability and Logic: Insights, Inspirations, and Innovations (Arnold Beckmann, Isabel Oitaven and Florin Manea, editors), LNCS, vol. 15764, Springer Cham, 2025 pp. 395-409
+                        [5] Cecilia Pradic & Ian Price, Problems with Fixpoints of Polynomials of Polynomials, Forty-First Annual Symposium on Logic in Computer Science (to appear) 2026
     - time: "12:45"
       type: "break"
       title: "Lunch break"
@@ -921,26 +933,12 @@
           room: "Lecture Room 003"
           talks:
             - time: "14:15"
-              title: "Strong reductions are adaptors"
-              speaker: "Ian Price"
-              id: "price-computability"
-              abstract: |
-                        Pradic and Price characterise Weihrauch reductions as morphisms in the category of answerable containers over represented spaces [3]. This abstract characterisation allows them to show that much of the algebraic structure of the Weihrauch lattice exists for general reasons rather than being tied to type-2 computability. However, it was not clear how to express strong Weihrauch reductions (reductions where the backwards map only depends on the answers from the oracle and not the initial question) in this setting.
-
-                        Independently, in an attempt to generalise dependent polynomial functors and optics, Hedges et al. worked on a program of “Fibre Optics” [1], from which they produced a structure they term a “dependent adaptor” [2]. This structure turns out to be exactly what is needed to give a category-theoretic treatment of strong Weihrauch reducibility. We give a characterisation of strong reducibility in terms of adaptors and are able to recover the Galois connection given by cylindrification.
-
-                        [1] Dylan Braithwaite, Matteo Capucci, Bruno Gavranović, Jules Hedges and Eigil Fjeldgren Rischel, Fibre Optics, arXiv.2112.11145 (2021).
-                        [2] Jules Hedges Fibre Optics II, draft.
-                        [3] Cécilia Pradic and Ian Price, Weihrauch Problems as Containers, Crossroads of Computability and Logic: Insights, Inspirations, and Innovations(Arnold Beckmann, Isabel Oitaven and Florin Manea, editors), Lecture Notes in Computer Science, vol. 15764, Springer Cham, 2025, pp. 395-409.
-
-
-            - time: "14:35"
               title: "Closed formulas for arbitrary Kalmar elementary functions"
               speaker: "Mihai Prunescu"
-            - time: "14:55"
+            - time: "14:35"
               title: "On the computational strength of Hausdorff oracles"
               speaker: "Benjamin Koch"
-            - time: "15:15"
+            - time: "14:55"
               title: "On the complexity of quadratic iteration"
               speaker: "Eike Neumann"
 
