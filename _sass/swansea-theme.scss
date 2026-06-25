@@ -1507,6 +1507,11 @@ h6,
         justify-content: flex-start;
         padding-left: 20px;
     }
+
+    // fix background on programme on small screens
+    section > div.kedit {
+        overflow-x: scroll;
+    }
 }
 
 /* Styling for main room tags */
