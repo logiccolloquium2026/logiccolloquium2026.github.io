@@ -1512,6 +1512,10 @@ h6,
     section > div.kedit {
         overflow-x: scroll;
     }
+
+    html body main#contentArea.WxEditableArea.lpMode div.wrapper div#website section.kedit.keditFullHeight div.kedit.keditFullHeight {
+        overflow-x: scroll;
+    }
 }
 
 /* Styling for main room tags */
