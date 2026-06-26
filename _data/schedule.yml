@@ -354,7 +354,7 @@
               time: "12:20"
               id: "hsing-chien-tsai"
         - name: "Set Theory"
-          room: "Reading Room"
+          room: "Theory lab (209)"
           talks:
             - title: "Generalized Sums of Linear Orders"
               speaker: "Alvaro Diaz Ramos"
@@ -514,7 +514,7 @@
               id: "cheval-proof"
 
         - name: "Intuitionistic Set Theory/Philosophy"
-          room: "Reading Room"
+          room: "Theory lab (209)"
           talks:
             - time: "15:45"
               title: "Indexed hierarchies and internal structure in the ordinal class in intuitionistic set theories"
@@ -905,7 +905,7 @@
               speaker: "Laurentiu Leustean"
 
         - name: "Set Theory"
-          room: "Reading Room"
+          room: "Theory lab (209)"
           talks:
             - time: "11:40"
               title: "Generic reals and gauge dimensions"
