@@ -712,6 +712,33 @@
       title: "Special Sessions"
       id: "proof-model-theory"
       tracks:
+        - name: "Model Theory"
+          room: "Robert Recorde (102)"
+          organisers: "Pantelis Eleftheriou (Leeds) and Frank Wagner (Lyon)"
+          talks:
+            - time: "15:45"
+              title: "Automatic definability of valuations from an order-topological perspective"
+              speaker: "Anna de Mase"
+              id: "demase-model-theory"
+              abstract: |
+                        An ordered abelian group $G$ (resp. a field $k$) has automatic ($\emptyset$)-definability if, in every henselian valued field with value group $G$ (resp. residue field $k$), the valuation is ($\emptyset$)-definable in the language of rings. In joint work with B. Boissonneau, F. Jahnke, and P. Touchard, we characterize such groups via the model-theoretic properties of weak and strong augmentability by infinitesimals, and such fields via t-henselianity, in characteristic~0. In this talk, I show that strong augmentability admits an order-topological formulation, and I discuss analogous questions for weak augmentability. I also present an order-topological formulation of t-henselianity in the setting of orderable fields, building on work of Prestel and Ziegler from 1978. The talk includes results from this joint work, as well as ongoing work with L. S. Krapp and S. Kuhlmann.
+
+                        [1] Blaise Boissonneau, Anna De Mase, Franziska Jahnke and Pierre Touchard, Growing spines: ad infinitum et ad infinitesimalia, arXiv:2512.04932 (2025).
+              
+            - time: "16:25"
+              title: "Cofibrant generation of pure monomorphisms in presheaf categories"
+              speaker: "Mark Kamsma (Masaryk)"
+              id: "kamsma-model-theory"
+              abstract: |
+                        The title of this talk, and its main result, are purely category-theoretic. However, we use model-theoretic methods to obtain the result. For a fixed monoid S, there is an algebraic question whether or not pure monomorphisms between sets with an S-action are cofibrantly generated. In (positive) model theory, we sometimes call pure monomorphisms immersions: those homomorphisms that reflect solutions to systems of equations. An earlier result by Lieberman, Vasey and Rosický established an equivalence between the existence of a stable independence relation on a category and cofibrant generation of a certain class of morphisms. We use this equivalence, as well as ideas of Mustafin, to characterise for which monoids S the class of pure monomorphisms is cofibrantly generated: those such that for every a, b ∈ S there is c ∈ S with a = cb or b = ca. Our methods directly go through in the greater generality of presheaf categories, hence the title, and main result, of the talk. This is joint work with Sean Cox, Jonathan Feigert, Marcos Mazari-Armida and Jiří Rosický.
+
+            - time: "17:15"
+              title: "Generalisations of Ax's theorem on pseudofinite fields"
+              speaker: "Stefan Ludwig"
+              id: "ludwig-model-theory"
+              abstract: |
+                        A pseudofinite field is an infinite model of the common theory of all finite fields in the language of rings. In 1968, James Ax, building on number-theoretic results, gave an axiomatization of the theory and proved its decidability, as well as a quantifier reduction. Hrushovski generalised this to the algebraic closures of finite fields equipped with a symbol for the Frobenius, and, more recently, to finite fields equipped with an additive character. Motivated by natural number-theoretic examples, we will present a further generalisation of the latter, and, if time permits, consider the theory arising from the combination of both of Hrushovski’s works.
+
         - name: "Pure and Applied Proof Theory"
           room: "Lecture Room 002"
           organisers: "Raheleh Jalali (Bath) and Andrei Sipos (Bucharest)"
@@ -746,33 +773,6 @@
                         [5] L. Leuştean, A. Nicolae, and A. Sipoş, An abstract proximal point algorithm, Journal of Global Optimization, vol. 72 (2018), pp. 553–577.
                         [6] S. Sabach and S. Shtern, A first order method for solving convex bilevel optimization problems, SIAM Journal on Optimization, vol. 27 (2017), pp. 640–660.
                         [7] H.-K. Xu, N. Altwaijry, I. Alughaibi, and S. Chebbi, The viscosity approximation method for accretive operators in Banach spaces, Journal of Nonlinear and Variational Analysis, vol. 6 (2022), no. 1, pp. 37–50.
-                           
-        - name: "Model Theory"
-          room: "Robert Recorde (102)"
-          organisers: "Pantelis Eleftheriou (Leeds) and Frank Wagner (Lyon)"
-          talks:
-            - time: "15:45"
-              title: "Automatic definability of valuations from an order-topological perspective"
-              speaker: "Anna de Mase"
-              id: "demase-model-theory"
-              abstract: |
-                        An ordered abelian group $G$ (resp. a field $k$) has automatic ($\emptyset$)-definability if, in every henselian valued field with value group $G$ (resp. residue field $k$), the valuation is ($\emptyset$)-definable in the language of rings. In joint work with B. Boissonneau, F. Jahnke, and P. Touchard, we characterize such groups via the model-theoretic properties of weak and strong augmentability by infinitesimals, and such fields via t-henselianity, in characteristic~0. In this talk, I show that strong augmentability admits an order-topological formulation, and I discuss analogous questions for weak augmentability. I also present an order-topological formulation of t-henselianity in the setting of orderable fields, building on work of Prestel and Ziegler from 1978. The talk includes results from this joint work, as well as ongoing work with L. S. Krapp and S. Kuhlmann.
-
-                        [1] Blaise Boissonneau, Anna De Mase, Franziska Jahnke and Pierre Touchard, Growing spines: ad infinitum et ad infinitesimalia, arXiv:2512.04932 (2025).
-              
-            - time: "16:25"
-              title: "Cofibrant generation of pure monomorphisms in presheaf categories"
-              speaker: "Mark Kamsma (Masaryk)"
-              id: "kamsma-model-theory"
-              abstract: |
-                        The title of this talk, and its main result, are purely category-theoretic. However, we use model-theoretic methods to obtain the result. For a fixed monoid S, there is an algebraic question whether or not pure monomorphisms between sets with an S-action are cofibrantly generated. In (positive) model theory, we sometimes call pure monomorphisms immersions: those homomorphisms that reflect solutions to systems of equations. An earlier result by Lieberman, Vasey and Rosický established an equivalence between the existence of a stable independence relation on a category and cofibrant generation of a certain class of morphisms. We use this equivalence, as well as ideas of Mustafin, to characterise for which monoids S the class of pure monomorphisms is cofibrantly generated: those such that for every a, b ∈ S there is c ∈ S with a = cb or b = ca. Our methods directly go through in the greater generality of presheaf categories, hence the title, and main result, of the talk. This is joint work with Sean Cox, Jonathan Feigert, Marcos Mazari-Armida and Jiří Rosický.
-
-            - time: "17:15"
-              title: "Generalisations of Ax's theorem on pseudofinite fields"
-              speaker: "Stefan Ludwig"
-              id: "ludwig-model-theory"
-              abstract: |
-                        A pseudofinite field is an infinite model of the common theory of all finite fields in the language of rings. In 1968, James Ax, building on number-theoretic results, gave an axiomatization of the theory and proved its decidability, as well as a quantifier reduction. Hrushovski generalised this to the algebraic closures of finite fields equipped with a symbol for the Frobenius, and, more recently, to finite fields equipped with an additive character. Motivated by natural number-theoretic examples, we will present a further generalisation of the latter, and, if time permits, consider the theory arising from the combination of both of Hrushovski’s works.
     - time: "19:00"
       type: "social"
       title: "Conference dinner"
