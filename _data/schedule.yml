@@ -175,7 +175,7 @@
             - title: "Anatomy of a Programming Language: Prolog and the Beginnings of European Artificial Intelligence Research"
               speaker: "Mathilde Fichen"
               id: "mathilde-fichen"
-              time: "16:25"
+              time: "16:30"
               abstract: |
                         The programming language Prolog, developed in the early 1970s by research teams in Marseille and Edinburgh, highlights the difficulty of grasping the epistemological nature of the complex object that a programming language represents. Whereas most pre-existing programming languages belong to a common genealogy - a language being created either as a continuation of, or in reaction to, a pre-existing language deemed insufficient - thereby granting these objects membership within the same technical family, Prolog was not initially designed as a programming language. The language emerged through successive iterations from an automated theorem-proving tool used within a natural language processing project. This gradual emergence also makes it difficult to pinpoint the exact moment when Prolog “became” a programming language and ceased to be merely a proving tool. Prolog’s particular genealogy calls into question, from within, the boundaries defining membership in the category of technical objects. By studying the social, scientific, and cultural context in which Prolog first appeared and subsequently developed - namely, the emerging field of artificial intelligence research in Europe during the 1970s and 1980s - we seek to better characterize the nature of this complex object by observing the concrete manifestations of the language’s existence. Particular attention will be paid to the performative power of the language, which helped disseminate the mechanisms of automated deduction that were then predominant in AI research during those decades.
             - title: "Writing the history of Logic and Computing"
@@ -206,7 +206,7 @@
             - title: "Extracting certified programs from type-theoretic proofs in analysis and topology"
               speaker: "Holger Thies"
               id: "holger-thies"
-              time: "16:25"
+              time: "16:30"
               abstract: |
                         Recent developments in proof assistants based on dependent type theory have made it possible to formalize substantial parts of analysis and topology while preserving computational content. In this talk, we discuss approaches to extracting certified programs from formal proofs in constructive type theory, with a focus on computable analysis and exact real computation. Topics include efficient representations for exact real computation, operations on hyperspaces and subsets, and solution operators for ordinary differential equations.
 
