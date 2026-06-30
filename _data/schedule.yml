@@ -732,7 +732,7 @@
               abstract: |
                         The title of this talk, and its main result, are purely category-theoretic. However, we use model-theoretic methods to obtain the result. For a fixed monoid S, there is an algebraic question whether or not pure monomorphisms between sets with an S-action are cofibrantly generated. In (positive) model theory, we sometimes call pure monomorphisms immersions: those homomorphisms that reflect solutions to systems of equations. An earlier result by Lieberman, Vasey and Rosický established an equivalence between the existence of a stable independence relation on a category and cofibrant generation of a certain class of morphisms. We use this equivalence, as well as ideas of Mustafin, to characterise for which monoids S the class of pure monomorphisms is cofibrantly generated: those such that for every a, b ∈ S there is c ∈ S with a = cb or b = ca. Our methods directly go through in the greater generality of presheaf categories, hence the title, and main result, of the talk. This is joint work with Sean Cox, Jonathan Feigert, Marcos Mazari-Armida and Jiří Rosický.
 
-            - time: "17:15"
+            - time: "17:05"
               title: "Generalisations of Ax's theorem on pseudofinite fields"
               speaker: "Stefan Ludwig"
               id: "ludwig-model-theory"
@@ -759,7 +759,7 @@
               abstract: |
                         We explore the idea of using automatic and other very efficient presentations of structures to deal with the conceptual problem of natural proof-theoretic ordinal notations. We conclude that this approach still does not meet the goals. Joint work with Fedor N. Pakhomov.# Paste verbatim text block 1 here.
 
-            - time: "17:15"
+            - time: "17:05"
               title: "Quantitative results on a generalized viscosity approximation method"
               speaker: "Paulo Firmino"
               id: "firmino-proof-theory"
